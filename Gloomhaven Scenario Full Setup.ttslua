@@ -45408,6 +45408,692 @@ ScenarioInformation_All = {
 	}
 	--Scenario 101
 	,[101] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1014941430736134182/C2150000ECD34CFD33D3304A14FD21CEFADDF2EF/"}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,doorTiles		= {
+				{
+					name	= "Stone Door Vertical"
+					,tiles	= {
+						{
+							adjacentTiles	= {"D1","J1"}
+							,position		= {2.63, 1.77, 6.06}
+							,rotation		= {0.23, 0.03, 180.00}
+						}
+					}
+				},
+				{
+					name	= "Stone Door Vertical"
+					,tiles	= {
+						{
+							adjacentTiles	= {"D1","J2"}
+							,position		= {2.63, 1.88, -1.52}
+							,rotation		= {0.23, 0.03, 180.00}
+						}
+						,{
+							adjacentTiles	= {"A1","A2"}
+							,position		= {0.00, 1.88, 9.09}
+							,rotation		= {0.23, 0.03, 180.00}
+						}
+					}
+				}
+				,{
+					name	= "Dark Fog"
+					,tiles	= {
+						{
+							adjacentTiles	= {"J2","J1"}
+							,position		= {9.20, 1.88, 8.33}
+							,rotation		= {0.00, 180.00, 0.00}
+						}
+						,{
+							adjacentTiles	= {"J1","A1"}
+							,position		= {3.94, 1.88, 8.33}
+							,rotation		= {0.00, 180.00, 0.00}
+						}
+						,{
+							adjacentTiles	= {"J1","A1"}
+							,position		= {3.94, 1.88, 9.85}
+							,rotation		= {0.00, 180.00, 0.00}
+						}
+						,{
+							adjacentTiles	= {"J1","A1"}
+							,position		= {3.93, 1.88, 6.82}
+							,rotation		= {0.00, 180.00, 0.00}
+						}
+						,{
+							adjacentTiles	= {"A1","A2"}
+							,position		= {-1.31, 1.88, 9.85}
+							,rotation		= {0.00, 180.00, 0.00}
+						}
+						,{
+							adjacentTiles	= {"A1","A2"}
+							,position		= {-1.32, 1.88, 11.37}
+							,rotation		= {0.00, 180.00, 0.00}
+						}
+						,{
+							adjacentTiles	= {"A1","A2"}
+							,position		= {-2.63, 1.88, 9.10}
+							,rotation		= {0.00, 180.00, 0.00}
+						}
+					}
+				}
+			}
+		,mapTiles = {
+			{
+				tile			= "H3"
+				,position		= {0.00, 1.65, 1.52}
+				,rotation		= {0.00, 180.00, 0.00}
+			}
+			,{
+				tile			= "D1"
+				,position		= {-10.50, 1.65, 1.52}
+				,rotation		= {0.00, 90.00, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-13.13, 1.88, 3.03}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-13.14, 1.88, 1.52}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-11.81, 1.88, 3.79}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-11.80, 1.88, 2.31}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Earth Corridor 1"
+								,tiles	= {
+									{
+										position	= {-6.57, 1.77, -0.74}
+										,rotation	= {0.00, 359.38, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Man Stone Corridor 1"
+								,tiles	= {
+									{
+										position	= {0.00, 1.77, 3.03}
+										,rotation	= {0.05, 0.01, 180.00}
+									}
+									,{
+										position	= {0.00, 1.77, -1.52}
+										,rotation	= {359.95, 0.01, 180.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_HazardousTerrain
+						,type	= {
+							{
+								name	= "Thorns"
+								,tiles	= {
+									{
+										position	= {-10.50, 1.88, 1.52}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+									,{
+										position	= {-9.19, 1.88, 0.76}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+									,{
+										position	= {-7.87, 1.88, 1.52}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+									,{
+										position	= {-7.87, 1.88, 3.03}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-3.94, 1.88, 2.29}
+										,rotation	= {0.00, 179.98, 0.00}
+									}
+									,{
+										position	= {-1.31, 1.88, -0.76}
+										,rotation	= {0.00, 179.98, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {-10.50, 1.88, 3.03}
+										,rotation	= {0.00, 179.98, 0.00}
+									}
+									,{
+										position	= {-9.19, 1.88, -0.76}
+										,rotation	= {0.00, 179.98, 0.00}
+									}
+									,{
+										position	= {-7.87, 1.88, 0.00}
+										,rotation	= {0.00, 179.98, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, -0.76}
+										,rotation	= {0.00, 179.98, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Log"
+								,tiles	= {
+									{
+										position	= {-11.81, 1.88, 0.76}
+										,rotation	= {0.00, 239.98, 0.00}
+									}
+									,{
+										position	= {-6.56, 1.88, 0.76}
+										,rotation	= {0.00, 359.92, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 0.00}
+										,rotation	= {359.99, 0.02, 359.97}
+									}
+								}
+							}
+							,{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {-10.50, 1.88, 4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, 0.00}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Nest"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 5.30}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, -3.79}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {1.31, 1.94, 5.30}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.94, -3.79}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Rending Drake"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.19, 1.77, 3.79}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.25, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, 0.76}
+							}
+						}
+					}
+					,{
+						name	= "Spitting Drake"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.63, 1.77, 4.55}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.63, 1.77, -3.03}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "J2"
+				,position		= {11.81, 1.65, 9.85}
+				,rotation		= {0.00, 359.98, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736135232/601C5B9FB9E1D0FF9A7956FD9601B4B220C68A62/"
+						,position = {23.19, 1.75, 8.34}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {2.62, 1.00, 2.62}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Dark Pit"
+								,tiles	= {
+									{
+										position	= {3.94, 1.88, 0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {5.26, 1.88, 1.51}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {6.56, 1.88, 2.27}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {7.87, 1.88, 3.03}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Rock Column"
+								,tiles	= {
+									{
+										position	= {11.81, 1.88, 5.30}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {9.19, 1.88, 3.79}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {13.12, 1.88, 6.06}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {9.19, 1.88, 5.30}
+										,rotation	= {0.00, 60.00, 0.00}
+									}
+									,{
+										position	= {10.50, 1.88, 7.58}
+										,rotation	= {0.00, 60.00, 0.00}
+									}
+									,{
+										position	= {14.44, 1.88, 6.82}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {14.44, 1.88, 11.37}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {15.75, 1.88, 13.64}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 3"
+								,tiles	= {
+									{
+										position	= {14.44, 1.88, 9.85}
+										,rotation	= {0.00, 240.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {14.42, 1.83, 14.41}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {13.11, 1.83, 13.65}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {13.12, 1.88, 15.16}
+										,rotation	= {0.00, 180.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "93"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Bones"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {7.88, 1.77, 6.06}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {10.50, 1.77, 4.55}
+							}
+						}
+					}
+					,{
+						name	= "Living Corpse"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {13.12, 1.77, 7.58}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {15.75, 1.77, 9.09}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {13.13, 1.77, 12.12}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "J1"
+				,position		= {2.63, 1.65, 10.61}
+				,rotation		= {0.00, 59.99, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451059/AF8C075251E91603344C57179BB8FF6B40C574D3/"
+						,position = {10.06, 1.75, 18.94}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.76, 1.00, 1.76}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {5.25, 1.77, 10.61}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {7.87, 1.77, 12.11}
+							}
+						}
+					}
+					,{
+						name	= "Night Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {6.56, 1.77, 8.34}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A1"
+				,position		= {-4.42, 1.47, 15.15}
+				,rotation		= {0.00, 269.96, 178.21}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451464/D0D62AF8AD363D9FC7E1D07DC58F86A12CE6FACD/"
+						,position = {0.00, 1.75, 18.19}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.76, 1.00, 1.76}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 8.34}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, 9.85}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {0.00, 1.77, 7.58}
+							}
+						}
+					}
+					,{
+						name	= "Night Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, 6.82}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A2"
+				,position		= {-4.42, 1.47, 15.15}
+				,rotation		= {0.00, 269.96, 178.21}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451936/9D269EC9AE7704422BBA93F8DF901C055D414598/"
+						,position = {-7.88, 1.75, 13.64}
+						,rotation = {0.00, 180.02, 0.00}
+						,scale = {1.53, 1.00, 1.53}
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451712/28B3F546B2546BC493EF6853761AF820128BB3AA/"
+						,position = {-14.00, 1.75, 12.12}
+						,rotation = {0.00, 180.01, 0.00}
+						,scale = {1.59, 1.00, 1.59}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Altar Horizontal"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, 10.61}
+										,rotation	= {0.00, 300.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-2.63, 1.77, 12.12}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-3.94, 1.77, 9.85}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	--Scenario 102
 	,[102] = {
