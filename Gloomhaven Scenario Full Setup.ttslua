@@ -43081,6 +43081,12 @@ ScenarioInformation_All = {
 		scenarioPages	= {
 			{image = "http://cloud-3.steamusercontent.com/ugc/1011563587905382393/A6E035067D1F0B8A5B3EBCCE37941FB28F624848/"}
 		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563885674990444/60465B82A0BCDEF10AE672268F1C2A4586A1F0E3/"
+				,scale = {1.88, 1.00, 1.88}
+			}
+		}
 		,gridType		= Constant_Grid_Vertical
 		,doorTiles		= {
 			{
@@ -43656,6 +43662,12 @@ ScenarioInformation_All = {
 	,[97] = {
 		scenarioPages	= {
 			{image = "http://cloud-3.steamusercontent.com/ugc/1011563720479303901/A5136F800A2397180E29E2598BAC8CCB62C079F4/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563885674998788/8FABFA53A1554E6F3E24A9053B3E303104CDD55A/"
+				,scale = {2.00, 1.00, 2.00}
+			}
 		}
 		,gridType		= Constant_Grid_Vertical
 		,doorTiles		= {
@@ -44341,6 +44353,23 @@ ScenarioInformation_All = {
 		scenarioPages	= {
 			{image = "http://cloud-3.steamusercontent.com/ugc/1011563720479351494/A2E94DBCED32B78848367A53F26C9378932E7F3D/"}
 		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563939088215098/99044103F751739B9D60C07CA531E5D912A4FA3E/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (55)"
+			}
+			,{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563939088215378/69B85AB654DD09CB365D9E6998EDFF04887C271F/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (59)"
+			}
+			,{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563939088215603/9E64ADE5B907424DA167C8402CA8FABE4F1D2816/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (82)"
+			}
+		}
 		,gridType		= Constant_Grid_Vertical
 		,doorTiles		= {
 			{
@@ -44900,6 +44929,18 @@ ScenarioInformation_All = {
 		scenarioPages	= {
 			{image = "http://cloud-3.steamusercontent.com/ugc/1011563720484487590/693A75A3F686FB44BB485D7B01832169F3BB9AB1/"}
 		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563939088076578/0E48AE18B011C674473FEAE98F17E9A5A99BCB60/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (25)"
+			}
+			,{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563939088075375/3A85B290F0BF34E87DF6C2D75C99EEEBDF79431D/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (16)"
+			}
+		}
 		,gridType		= Constant_Grid_Vertical
 		,doorTiles		= {
 				{
@@ -45402,6 +45443,11 @@ ScenarioInformation_All = {
 						,rotation		= {0.00, 90.03, 0.00}
 					}
 				}
+				,monsterList	= {
+					"Black Imp"
+					,"Cultist"
+					,"Deep Terror"
+				}
 			}
 	--Scenario 100
 	,[100] = {
@@ -45410,6 +45456,12 @@ ScenarioInformation_All = {
 	,[101] = {
 		scenarioPages	= {
 			{image = "http://cloud-3.steamusercontent.com/ugc/1014941430736134182/C2150000ECD34CFD33D3304A14FD21CEFADDF2EF/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563885675020902/335DA98CEB54D67801898D8B20EEC1601E8CB20A/"
+				,scale = {2.00, 1.00, 2.00}
+			}
 		}
 		,gridType		= Constant_Grid_Horizontal
 		,doorTiles		= {
@@ -45424,17 +45476,17 @@ ScenarioInformation_All = {
 					}
 				},
 				{
-					name	= "Stone Door Vertical"
+					name	= "Pressure Plate"
 					,tiles	= {
 						{
 							adjacentTiles	= {"D1","J2"}
 							,position		= {2.63, 1.88, -1.52}
-							,rotation		= {0.23, 0.03, 180.00}
+							,rotation		= {0.23, 0.03, 0.00}
 						}
 						,{
 							adjacentTiles	= {"A1","A2"}
 							,position		= {0.00, 1.88, 9.09}
-							,rotation		= {0.23, 0.03, 180.00}
+							,rotation		= {0.23, 0.03, 0.00}
 						}
 					}
 				}
@@ -45739,7 +45791,7 @@ ScenarioInformation_All = {
 				,scenarioSections = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736135232/601C5B9FB9E1D0FF9A7956FD9601B4B220C68A62/"
-						,position = {23.19, 1.75, 8.34}
+						,position = {23.19, 1.75, 11.37}
 						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.62, 1.00, 2.62}
 					}
@@ -46094,9 +46146,456 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Rending Drake"
+			,"Spitting Drake"
+			,"Living Bones"
+			,"Living Corpse"
+			,"Living Spirit"
+			,"Night Demon"
+		}
 	}
 	--Scenario 102
 	,[102] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011563885674424726/9B8B7E68836EE6B31478A5DED345B5344D993E12/"}
+		},
+		scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563885674427037/09393EBC75CD4347BD9288A8EA17D26C776C717D/"
+				,scale = {1.88, 1.00, 1.88}
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,doorTiles		= {
+				{
+					name	= "Wooden Door Horizontal"
+					,tiles	= {
+						{
+							adjacentTiles	= {"H3","B1"}
+							,position		= {-3.79, 1.77, 9.19}
+							,rotation		= {0.00, 90.00, 179.91}
+						}
+						,{
+							adjacentTiles	= {"H3","I2"}
+							,position		= {3.79, 1.77, 9.19}
+							,rotation		= {0.00, 90.01, 180.00}
+						}
+						,{
+							adjacentTiles	= {"H3","G2"}
+							,position		= {-4.55, 1.77, 5.25}
+							,rotation		= {0.00, 90.00, 180.07}
+						}
+					}
+				}
+				,{
+					name	= "Wooden Door Vertical"
+					,tiles	= {
+						{
+							adjacentTiles	= {"H3","B2"}
+							,position		= {1.54, 1.77, 0.00}
+							,rotation		= {0.00, 270.00, 180.00}
+						}
+						,{
+							adjacentTiles	= {"H3","B3"}
+							,position		= {-3.03, 1.77, -5.25}
+							,rotation		= {0.00, 270.00, 180.00}
+						}
+					}
+				}
+			}
+		,mapTiles = {
+			{
+				tile			= "F1"
+				,position		= {-0.76, 1.71, -1.31}
+				,rotation		= {0.00, 0.00, 180.00}
+			}
+			,{
+				tile			= "H3"
+				,position		= {0.76, 1.65, 9.17}
+				,rotation		= {0.00, 270.13, 0.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-0.76, 1.88, 14.44}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {0.76, 1.88, 14.44}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-1.52, 1.88, 13.12}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {0.00, 1.88, 13.12}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {1.54, 1.88, 13.13}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Man Stone Corridor 2"
+								,tiles	= {
+									{
+										position	= {-1.52, 1.88, 5.25}
+										,rotation	= {0.00, 90.01, 0.07}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Shelf"
+								,tiles	= {
+									{
+										position	= {-1.51, 1.88, 2.61}
+										,rotation	= {0.00, 210.40, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, -5.25}
+										,rotation	= {0.00, 29.82, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B1"
+				,position		= {-5.30, 1.71, 11.81}
+				,rotation		= {0.00, 269.98, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426801/A3D6EBD43F7D622EC73C107273A73EBC31DF9A8D/"
+						,position = {-11.37, 1.75, 12.69}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.88, 1.00, 1.88}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Barrel"
+								,tiles	= {
+									{
+										position	= {-6.82, 1.88, 14.44}
+										,rotation	= {0.00, 30.01, 0.00}
+									}
+									,{
+										position	= {-7.58, 1.88, 13.12}
+										,rotation	= {0.00, 30.01, 0.00}
+									}
+									,{
+										position	= {-7.58, 1.88, 10.50}
+										,rotation	= {0.00, 330.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Shelf"
+								,tiles	= {
+									{
+										position	= {-4.55, 1.88, 13.13}
+										,rotation	= {0.00, 90.01, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "I2"
+				,position		= {6.08, 1.65, 13.10}
+				,rotation		= {0.00, 270.09, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426592/D5A542C099A27EF5BA1C5565A4E9A7BF4006569A/"
+						,position = {16.67, 1.75, 13.12}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.88, 1.00, 1.88}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {7.59, 1.88, 15.76}
+										,rotation	= {0.00, 89.74, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Crate B"
+								,tiles	= {
+									{
+										position	= {3.03, 1.88, 15.74}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {6.06, 1.88, 10.50}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Cabinet"
+								,tiles	= {
+									{
+										position	= {9.85, 1.88, 11.81}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {8.34, 1.88, 14.44}
+										,rotation	= {0.00, 269.33, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {6.82, 1.88, 14.43}
+										,rotation	= {0.00, 330.02, 0.00}
+									}
+									,{
+										position	= {10.61, 1.88, 15.75}
+										,rotation	= {0.00, 210.22, 359.99}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "G2"
+				,position		= {-9.09, 1.71, 2.63}
+				,rotation		= {0.00, 270.00, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426089/34DC68DC6FC2DDC19A5382365A8941CA4D205677/"
+						,position = {-18.19, 1.75, 2.63}
+						,rotation = {0.00, 180.01, 0.00}
+						,scale = {1.48, 1.00, 1.48}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {-14.40, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "86"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Shelf"
+								,tiles	= {
+									{
+										position	= {-6.82, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-8.34, 1.88, 3.94}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {-12.87, 1.88, 1.30}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-14.41, 1.88, 3.96}
+										,rotation	= {0.00, 150.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B2"
+				,position		= {4.55, 1.71, 2.62}
+				,rotation		= {0.00, 90.08, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426299/A9E4FD3508FD75D236BB4340DC72ED3987A8362E/"
+						,position = {11.37, 1.75, 2.19}
+						,rotation = {0.00, 180.01, 0.00}
+						,scale = {1.59, 1.00, 1.59}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Stairs Horizontal"
+								,tiles	= {
+									{
+										position	= {2.27, 1.88, 1.32}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {4.55, 1.88, 2.62}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {6.06, 1.88, 0.00}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "77"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {3.79, 1.88, 3.94}
+										,rotation	= {0.00, 330.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Cabinet"
+								,tiles	= {
+									{
+										position	= {5.31, 1.88, 3.94}
+										,rotation	= {0.00, 330.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Tree"
+								,tiles	= {
+									{
+										position	= {3.80, 1.88, 1.32}
+										,rotation	= {0.00, 150.05, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B3"
+				,position		= {-6.06, 1.71, -5.25}
+				,rotation		= {0.00, 270.01, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674425884/0C06F83A02DA93936438A5E09A459AABF080DFB4/"
+						,position = {-14.40, 1.75, -4.81}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.47, 1.00, 1.47}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Rubble"
+								,tiles	= {
+									{
+										position	= {-3.79, 1.88, -6.56}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {-5.31, 1.88, -6.56}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Altar Vertical"
+								,tiles	= {
+									{
+										position	= {-4.55, 1.88, -2.63}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-7.57, 1.88, -2.64}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {-8.34, 1.88, -6.56}
+										,rotation	= {0.00, 330.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	--Scenario 103
 	,[103] = {
@@ -46136,6 +46635,63 @@ ScenarioInformation_All = {
 	}
 	--Scenario 115
 	,[115] = {
+	}
+	-- Brute Solo
+	,[200] = {
+	}
+	-- Tinkerer Solo
+	,[201] = {
+	}
+	-- Spellweaver Solo
+	,[202] = {
+	}
+	-- Scoundrel Solo
+	,[203] = {
+	}
+	-- Cragheart Solo
+	,[204] = {
+	}
+	-- Mindthief Solo
+	,[205] = {
+	}
+	-- Sun Solo
+	,[206] = {
+	}
+	-- Spears Solo
+	,[207] = {
+	}
+	-- Cirlces Solo
+	,[208] = {
+	}
+	-- Moon Solo
+	,[209] = {
+	}
+	-- Cthulu Solo
+	,[210] = {
+	}
+	-- Lightnings Solo
+	,[211] = {
+	}
+	-- Music Note Solo
+	,[212] = {
+	}
+	-- Spike Head Solo
+	,[213] = {
+	}
+	-- Saw Solo
+	,[214] = {
+	}
+	-- Triangles Solo
+	,[215] = {
+	}
+	-- Two-Minis Solo
+	,[216] = {
+	}
+	-- Envelope X Solo
+	,[216] = {
+	}
+	-- Diviner Solo
+	,[217] = {
 	}
 }
 
@@ -46638,6 +47194,8 @@ function spawnCallback(obj,params)
 			ButtonLabel = "Open"
 		elseif params.buttonTheme == "Start" then
 			ButtonLabel = "Start"
+		elseif params.buttonTheme == "Conclusion" then
+			ButtonLabel = "Reveal Conclusion"
 		end
 
 		ScriptConstruct = ScriptConstruct
@@ -46646,8 +47204,7 @@ function spawnCallback(obj,params)
 ..		"\n		label			= '" .. ButtonLabel .. "'"
 ..		"\n		,click_function	= 'selfFunction'"
 ..		"\n		,function_owner	= self"
-..		"\n		,position		= {x=0,y=0,z=0}"
-..		"\n		,rotation		= {x=0,y=180-self.getRotation().y,z=0}"
+
 
 		if params.buttonTheme == "Door" then
 			ScriptConstruct = ScriptConstruct
@@ -46655,18 +47212,32 @@ function spawnCallback(obj,params)
 ..		"\n		,height			= 250"
 ..		"\n		,width			= 500"
 ..		"\n		,font_size		= 200"
+..		"\n		,position		= {x=0,y=0,z=0}"
+..		"\n		,rotation		= {x=0,y=180-self.getRotation().y,z=0}"
 		elseif params.buttonTheme == "Start" then
 			ScriptConstruct = ScriptConstruct
 ..		"\n		,color			= {0.612,0.678,0.741}"
 ..		"\n		,height			= 250"
 ..		"\n		,width			= 500"
 ..		"\n		,font_size		= 200"
+..		"\n		,position		= {x=0,y=0,z=0}"
+..		"\n		,rotation		= {x=0,y=180-self.getRotation().y,z=0}"
+		elseif params.buttonTheme == "Conclusion" then
+			ScriptConstruct = ScriptConstruct
+..		"\n		,color			= {1,1,1}"
+..		"\n		,height			= 250"
+..		"\n		,width			= 1000"
+..		"\n		,font_size		= 100"
+..		"\n		,position		= {x=0,y=-0.1,z=0}"
+..		"\n		,rotation		= {x=0,y=180-self.getRotation().y,z=180}"
 		elseif params.buttonTheme == "Treasure" then
 			ScriptConstruct = ScriptConstruct
 ..		"\n		,color			= {0.941,0.694,0.027}"
 ..		"\n		,height			= 250"
 ..		"\n		,width			= 280"
 ..		"\n		,font_size		= 200"
+..		"\n		,position		= {x=0,y=0,z=0}"
+..		"\n		,rotation		= {x=0,y=180-self.getRotation().y,z=0}"
 		end
 
 		ScriptConstruct = ScriptConstruct
@@ -46729,6 +47300,11 @@ function spawnCallback(obj,params)
 ..		"\n		,treasureTile_GUID	= self.getGUID()"
 ..		"\n}"
 ..		"\n	getObjectFromGUID('" .. self.getGUID() .. "').call('getTreasureCard',params)"
+		elseif params.buttonTheme == "Conclusion" then
+					ScriptConstruct = ScriptConstruct
+..		"\n	self.setColorTint({r=1,b=1,g=1})"
+..		"\n self.setLock(false)"
+..		"\n self.flip()"
 		end
 
 		ScriptConstruct = ScriptConstruct
@@ -47232,6 +47808,38 @@ function spawnScenarioPages(params)
 	end
 end
 
+function spawnScenarioConclusions(params)
+	local position = {x=29.55, y=1.75, z=2.19}
+
+	if #params >= 2 then position.x = position.x + 10.5 end
+
+	for _,i in ipairs(params) do
+		if i.buttonLabel == nil then
+			i.buttonLabel = "Reveal Conclusion"
+		end
+
+		local params = {	lock = true
+											,buttonTheme = "Conclusion"
+											,buttonLabel = i.buttonLabel
+											,colourTint		= {r=0/255,g=0/255,b=0/255}
+										}
+
+
+		i.type				= "Custom_Token"
+		i.position			= position
+		i.rotation			= {0.00, 180.00, 180.00}
+		i.sound				= false
+		i.snap_to_grid		= true
+		i.callback			= "spawnCallback"
+		i.callback_owner	= self
+		i.params			= params
+
+
+		spawnObject(i).setCustomObject(i)
+		 position.x = position.x - 10.5
+	end
+end
+
 --Take Back from Infinite Bag for Use
 function takeBagFromInfinite(InfiniteBag,FutureName)
 	local pos = InfiniteBag.getPosition()
@@ -47298,6 +47906,9 @@ function createMap()
 	--Spawn Scenario Pages
 	----------------------
 	spawnScenarioPages(ScenarioInformation.scenarioPages)
+	if ScenarioInformation.scenarioConclusions ~= nil then
+		spawnScenarioConclusions(ScenarioInformation.scenarioConclusions)
+	end
 
 
 
