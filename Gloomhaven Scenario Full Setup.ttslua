@@ -45451,6 +45451,819 @@ ScenarioInformation_All = {
 			}
 	--Scenario 100
 	,[100] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011563939088490652/07B4F492B0C5CDCB41F119FED86F00AC33ECE7D7/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011563939088491075/8F771AB658BA458E9558B7C1217A1F0D452094E4/"
+				,scale = {2.00, 1.00, 2.00}
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,doorTiles		= {
+			{
+				name	= "Stone Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"F1","B3"}
+						,position		= {-10.50, 1.77, 7.58}
+						,rotation		= {0.01, 0.06, 179.99}
+					}
+					,{
+						adjacentTiles	= {"F1","B3"}
+						,position		= {-10.50, 1.77, 6.06}
+						,rotation		= {0.00, 0.06, 179.99}
+					}
+					,{
+						adjacentTiles	= {"F1","D1"}
+						,position		= {-1.52, 1.77, 15.75}
+						,rotation		= {0.00, 89.97, 179.92}
+					}
+					,{
+						adjacentTiles	= {"F1","D1"}
+						,position		= {0.00, 1.77, 15.75}
+						,rotation		= {0.00, 89.95, 179.92}
+					}
+					,{
+						adjacentTiles	= {"F1","B2"}
+						,position		= {7.88, 1.77, 7.58}
+						,rotation		= {0.00, 0.02, 180.02}
+					}
+					,{
+						adjacentTiles	= {"F1","B2"}
+						,position		= {7.88, 1.77, 6.06}
+						,rotation		= {0.01, 0.02, 180.00}
+					}
+					,{
+						adjacentTiles	= {"F1","I1"}
+						,position		= {-1.52, 1.78, -2.59}
+						,rotation		= {0.00, 90.09, 180.43}
+					}
+					,{
+						adjacentTiles	= {"F1","I1"}
+						,position		= {0.00, 1.78, -2.61}
+						,rotation		= {0.00, 90.08, 180.45}
+					}
+				}
+			}
+		}
+		,mapTiles = {
+		{
+				tile			= "F1"
+				,position		= {-3.03, 1.71, 7.89}
+				,rotation		= {0.00, 299.98, 180.00}
+				,scenarioSections = {
+					{
+						--02
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411651444/83480ED4B3A40280B9152BC73A5F628633035BFE/"
+						,position = {-24.94, 1.75, 21.98}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.69, 1.00, 0.69}
+						,hidden = true
+						,buttonLabel = "Section 02"
+						,guid = "5e25c4"
+					}
+					,{
+						--54
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411660991/4CF7FD7A47C82AD58F8FCBDC8A9581EF1B193C0C/"
+						,position = {-24.94, 1.75, 18.94}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.68, 1.00, 0.68}
+						,hidden = true
+						,buttonLabel = "Section 54"
+					}
+					,{
+						--57
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411662278/FF70EF973B6CA3F8E8A3487A9BF6B92ECFAED37E/"
+						,position = {-24.89, 1.75, 15.92}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.68, 1.00, 0.68}
+						,hidden = true
+						,buttonLabel = "Section 57"
+					}
+					,{
+						--70
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411663076/E2C5E424B33F72AEE14EDF9728E10D0FE563CB07/"
+						,position = {-24.94, 1.75, 12.88}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.68, 1.00, 0.68}
+						,hidden = true
+						,buttonLabel = "Section 70"
+					}
+					,{
+						--74
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411665806/8306FEF4C464944DE8B95C8BB6C9CE5180A4B676/"
+						,position = {-19.69, 1.75, 21.98}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.68, 1.00, 0.68}
+						,hidden = true
+						,buttonLabel = "Section 74"
+					}
+					,{
+						--77
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411666420/A3C803A775FCB55CE1C4B6D42E08355963E9F681/"
+						,position = {-19.69, 1.75, 18.94}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.76, 1.00, 0.76}
+						,hidden = true
+						,buttonLabel = "Section 77"
+					}
+					,{
+						--109
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411647947/03CB5CB6D6A945B0E17A8896898CBD7B476C2BCE/"
+						,position = {-19.69, 1.75, 15.91}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.80, 1.00, 0.80}
+						,hidden = true
+						,buttonLabel = "Section 109"
+					}
+					,{
+						--113
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411649309/AB2D04469A118522A144D3B3D1FEA7F7F5F9E693/"
+						,position = {-19.69, 1.75, 12.88}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.78, 1.00, 0.78}
+						,hidden = true
+						,buttonLabel = "Section 113"
+					}
+					,{
+						--22
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411653734/C54FE7BBED9686293B7BB5040E1069F10714A9BC/"
+						,position = {-12.69, 1.75, 20.46}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.95, 1.00, 1.95}
+						,hidden = true
+						,buttonLabel = "Section 22"
+					}
+					,{
+						--46
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411657819/5185E82D556024B904DE51EE50866FEAEE163580/"
+						,position = {-17.94, 1.75, 0.75}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale ={1.83, 1.00, 1.83}
+						,hidden = true
+						,buttonLabel = "Section 46"
+					}
+					,{
+						--14
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411649934/F8A27F3B8C0A73EA35E254AE5017B5E55EEE0E70/"
+						,position = {7.88, 1.81, 19.70}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {2.02, 1.00, 2.02}
+						,hidden = true
+						,buttonLabel = "Section 14"
+					}
+					,{
+						--71
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411663980/F92A5918380670E37136C01BE879EBC9C90AFB8E/"
+						,position = {16.63, 1.75, 19.70}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.94, 1.00, 1.94}
+						,hidden = true
+						,buttonLabel = "Section 71"
+					}
+					,{
+						--50
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411658476/2D8F5FB26D7167B966BC22DA153416F36699FF1A/"
+						,position = {21.00, 1.75, 9.09}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {2.01, 1.00, 2.01}
+						,hidden = true
+						,buttonLabel = "Section 50"
+					}
+					,{
+						--39
+						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411655089/DC00A69574838AA9105934A52F145CB7612F3166/"
+						,position = {-11.38, 1.75, -6.06}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {2.01, 1.00, 2.01}
+						,hidden = true
+						,buttonLabel = "Section 39"
+					}
+				}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {0.00, 1.88, 7.88}
+							,rotation	= {0.00, 330.00, 0.00}
+						}
+						,{
+							position	= {0.76, 1.88, 6.56}
+							,rotation	= {0.00, 330.02, 0.00}
+						}
+						,{
+							position	= {0.00, 1.88, 5.25}
+							,rotation	= {0.00, 330.17, 0.00}
+						}
+						,{
+							position	= {-1.52, 1.88, 5.25}
+							,rotation	= {0.00, 330.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {-2.27, 1.88, 9.19}
+										,rotation	= {0.00, 30.00, 0.00}
+										,params			= {
+											buttonTheme = "PressurePlate"
+											,buttonLabel		= "Clockwise"
+											,scriptFunction	= " getObjectFromGUID('8d2074').call('rotate100',1)"
+										}
+									}
+									,{
+										position	= {-3.79, 1.88, 6.56}
+										,rotation	= {0.00, 30.00, 0.00}
+										,params			= {
+											buttonTheme = "PressurePlate"
+											,buttonLabel		= "Anticlockwise"
+											,scriptFunction	= " getObjectFromGUID('8d2074').call('rotate100',-1)"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {-0.76, 1.88, 6.56}
+										,rotation	= {0.00, 30.01, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Stone Golem"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-7.58, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.52, 1.77, 5.25}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B3"
+				,position		= {-14.44, 1.71, 6.82}
+				,rotation		= {0.00, 180.03, 180.00}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {-14.44, 1.88, 6.82}
+										,rotation	= {0.00, 0.12, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {-11.82, 1.88, 6.82}
+										,rotation	= {0.00, 0.48, 0.00}
+									}
+									,{
+										position	= {-11.80, 1.88, 5.31}
+										,rotation	= {0.00, 0.48, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-13.12, 1.88, 6.06}
+										,rotation	= {0.00, 180.23, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {-13.13, 1.88, 4.55}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 2"
+								,tiles	= {
+									{
+										position	= {-14.44, 1.88, 8.34}
+										,rotation	= {0.00, 119.98, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {-15.75, 1.83, 6.06}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {-15.75, 1.83, 4.55}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-15.75, 1.77, 7.58}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-14.44, 1.77, 5.30}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-13.13, 1.77, 9.11}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "D1"
+				,position		= {-0.76, 1.77, 19.69}
+				,rotation		= {0.00, 359.99, 0.00}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {2.27, 1.88, 19.69}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "85"
+										}
+									}
+									,{
+										position	= {-3.79, 1.88, 19.69}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "76"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {-0.75, 1.89, 22.31}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-0.75, 1.88, 19.69}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+									,{
+										position	= {-1.51, 1.88, 18.37}
+										,rotation	= {0.00, 209.57, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {1.52, 1.88, 18.37}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {-3.04, 1.89, 18.38}
+										,rotation	= {0.00, 30.56, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {-2.27, 1.88, 17.06}
+										,rotation	= {0.00, 88.96, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Sarcophagus A"
+								,tiles	= {
+									{
+										position	= {-3.04, 1.89, 21.01}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {0.76, 1.89, 19.69}
+										,rotation	= {0.00, 29.61, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.76, 1.77, 22.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.52, 1.77, 21.00}
+							}
+						}
+					}
+					,{
+						name	= "Stone Golem"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.76, 1.77, 17.06}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B2"
+				,position		= {11.81, 1.71, 6.83}
+				,rotation		= {0.00, 359.97, 180.00}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {11.82, 1.88, 6.82}
+										,rotation	= {0.00, 359.65, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {10.50, 1.88, 6.06}
+										,rotation	= {0.00, 359.79, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {9.20, 1.88, 6.82}
+										,rotation	= {0.00, 240.00, 0.00}
+									}
+									,{
+										position	= {9.19, 1.88, 5.30}
+										,rotation	= {0.00, 240.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {10.50, 1.88, 4.55}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 2"
+								,tiles	= {
+									{
+										position	= {9.20, 1.88, 8.34}
+										,rotation	= {0.00, 120.30, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {13.13, 1.83, 6.06}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {13.13, 1.83, 4.55}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {10.50, 1.77, 9.09}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {11.81, 1.77, 5.30}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {13.13, 1.77, 9.09}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "I1"
+				,position		= {-2.27, 1.60, -6.55}
+				,rotation		= {0.00, 270.00, 180.85}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {-1.51, 1.81, -7.88}
+										,rotation	= {0.00, 89.98, 359.15}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Rubble"
+								,tiles	= {
+									{
+										position	= {-3.79, 1.83, -6.57}
+										,rotation	= {0.00, 89.98, 359.15}
+									}
+									,{
+										position	= {-2.27, 1.83, -6.57}
+										,rotation	= {0.00, 89.98, 359.15}
+									}
+									,{
+										position	= {-1.51, 1.85, -5.25}
+										,rotation	= {0.00, 89.98, 359.15}
+									}
+									,{
+										position	= {0.00, 1.85, -5.25}
+										,rotation	= {0.00, 89.98, 359.15}
+									}
+									,{
+										position	= {0.76, 1.87, -3.94}
+										,rotation	= {0.00, 89.98, 359.15}
+									}
+									,{
+										position	= {0.76, 1.83, -6.57}
+										,rotation	= {0.00, 89.98, 359.15}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.83, -6.56}
+										,rotation	= {0.74, 210.00, 0.43}
+									}
+									,{
+										position	= {1.52, 1.85, -5.25}
+										,rotation	= {0.74, 210.00, 0.43}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 2"
+								,tiles	= {
+									{
+										position	= {-2.27, 1.87, -3.94}
+										,rotation	= {0.74, 210.01, 0.43}
+									}
+									,{
+										position	= {-0.76, 1.83, -6.57}
+										,rotation	= {0.74, 149.99, 359.57}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {2.27, 1.81, -3.94}
+										,rotation	= {0.85, 180.00, 0.00}
+									}
+									,{
+										position	= {-4.55, 1.76, -7.87}
+										,rotation	= {0.85, 180.00, 0.00}
+									}
+									,{
+										position	= {-5.30, 1.74, -9.19}
+										,rotation	= {0.85, 179.99, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Ancient Artillery"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-4.55, 1.74, -5.24}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-0.76, 1.68, -9.19}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.27, 1.72, -6.56}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"Stone Golem"
+			,"Living Spirit"
+			,"Ancient Artillery"
+		}
 	}
 	--Scenario 101
 	,[101] = {
@@ -47180,6 +47993,7 @@ end
 --Generic Spawn Callback Function
 function spawnCallback(obj,params)
 	local ScriptConstruct = ""
+	local RotateValue = 1
 
 	if params.script ~= nil then
 		ScriptConstruct = params.script
@@ -47230,6 +48044,14 @@ function spawnCallback(obj,params)
 ..		"\n		,font_size		= 100"
 ..		"\n		,position		= {x=0,y=-0.1,z=0}"
 ..		"\n		,rotation		= {x=0,y=180-self.getRotation().y,z=180}"
+		elseif params.buttonTheme == "PressurePlate" then
+			ScriptConstruct = ScriptConstruct
+..		"\n		,color			= {0.408,0.925,0.510}"
+..		"\n		,height			= 250"
+..		"\n		,width			= 750"
+..		"\n		,font_size		= 100"
+..		"\n		,position		= {x=0,y=0,z=0}"
+..		"\n		,rotation		= {x=0,y=180-self.getRotation().y,z=0}"
 		elseif params.buttonTheme == "Treasure" then
 			ScriptConstruct = ScriptConstruct
 ..		"\n		,color			= {0.941,0.694,0.027}"
@@ -47561,14 +48383,26 @@ function spawnRoomTiles(MapTiles,DoorTiles)
 			if tMapTile.scenarioSections ~= nil then
 				-- For Each Page, Spawn Page
 				for _,tSection in pairs(tMapTile.scenarioSections) do
+					local params = {lock = true}
+
+					if tSection.hidden ~= nil then
+						params =
+						{
+							lock = true
+							,buttonTheme = "Conclusion"
+							,buttonLabel = tSection.buttonLabel
+							,colourTint	= {r=0/255,g=0/255,b=0/255}
+						}
+					end
 					tSection.type				= "Custom_Token"
 					tSection.sound				= false
 					tSection.snap_to_grid		= true
 					tSection.callback			= "spawnCallback"
 					tSection.callback_owner	= self
-					tSection.params			= {lock = true}
+					tSection.params			= params
 
 					spawnObject(tSection).setCustomObject(tSection)
+
 				end
 			end
 
@@ -48008,10 +48842,93 @@ function createMap()
 		return 1
 	end
 	startLuaCoroutine(self, "cleanUpParameters")
+	scenarioState = nil
 end
 
+---------------------
+--Scenario 100 Rotate
+---------------------
+function rotate100(value)
+	if IsBusy == 1 then
+		broadcastToAll(String_Busy, {1,1,1})
+		return
+	end
 
+	function rotateTiles()
+		IsBusy = 1
+		local F1 = getObjectFromGUID("d7fe48")
+		--local zone = getObjectFromGUID("2ea4d8")
+		local clockwise = getObjectFromGUID(clockwise_GUID)
+		local clockwise = getObjectFromGUID(anticlockwise_GUID)
+		local clockwise = getObjectFromGUID(pillar_GUID)
+		local position = {}
+		local z = {}
+		z.type				= "ScriptingTrigger"
+		z.scale			= {16.51, 5.10, 16.44}
+		z.rotation		= {0.00, 180.00, 0.00}
+		z.position		= {-1.29, 3.00, 6.62}
+		zone = spawnObject(z)
+		zone.setCustomObject(z)
 
+		wait(0.5)
+		local toAttach = zone.getObjects()
+
+		for _,zoneObject in ipairs(toAttach) do
+			position = zoneObject.getPosition()
+			if position.y > 1.68 then
+				if zoneObject ~= F1 then
+					F1.addAttachment(zoneObject)
+				end
+			end
+		end
+
+		if scenarioState == nil then
+			if value == -1 then
+				scenarioState = 1
+			else
+				scenarioState = 2
+			end
+		else
+			scenarioState = scenarioState + value
+		end
+
+		if scenarioState > 4 then
+			scenarioState = 1
+		elseif scenarioState < 1 then
+			scenarioState = 4
+		end
+
+		if scenarioState == 1 then
+			F1.setPosition({-3.95, 1.71, 6.81})
+			F1.setRotation({0.00, 269.95, 180.00})
+			Grid.type = 2
+		end
+
+		if scenarioState == 2 then
+			F1.setPosition({-0.74, 1.71, 9.19})
+			F1.setRotation({0.00, 359.91, 180.00})
+			Grid.type = 3
+		end
+
+		if scenarioState == 3 then
+			F1.setPosition({1.30, 1.71, 6.81})
+			F1.setRotation({0.00, 89.89, 180.01})
+			Grid.type = 2
+		end
+
+		if scenarioState == 4 then
+			F1.setPosition({-0.76, 1.71, 3.89})
+			F1.setRotation({0.00, 180.01, 180.00})
+			Grid.type = 3
+		end
+
+		F1.removeAttachments()
+		zone.destruct()
+		IsBusy = 0
+		return 1
+	end
+	startLuaCoroutine(self, "rotateTiles", value)
+end
 
 --------------------------------------------
 --Reveal Rooms after initial setup from door
