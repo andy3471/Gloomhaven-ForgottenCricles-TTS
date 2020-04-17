@@ -47412,6 +47412,262 @@ ScenarioInformation_All = {
 	}
 	--Scenario 103
 	,[103] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564062832220764/CE0887239E1FC1FE841CCC8DA7A41C007EFE33AB/"}
+		},
+		scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564062832221072/B3F79413DA84B6B261823F944B4D6BC823DA82CD/"
+				,scale = {2.30, 1.00, 2.30}
+			}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,doorTiles		= {
+				{
+					name	= "LIght Fog"
+					,tiles	= {
+						{
+							adjacentTiles	= {"L1","C2","D1"}
+							,position		= {-2.62, 1.88, 12.11}
+							,rotation		= {0.02, 180.23, 0.00}
+						}
+						,{
+							adjacentTiles	={"L1","C2","D1"}
+							,position		= {-2.62, 1.94, 10.60}
+							,rotation		= {4.47, 180.23, 0.00}
+						}
+						,{
+							adjacentTiles	= {"D1","M1"}
+							,position		= {1.31, 1.88, 2.28}
+							,rotation		= {0.00, 180.23, 0.00}
+						}
+						,{
+							adjacentTiles	= {"D1","M1"}
+							,position		= {2.63, 1.88, 1.52}
+							,rotation		= {0.00, 179.43, 0.01}
+						}
+					}
+				}
+			}
+		,mapTiles = {
+			{
+				tile			= "L1"
+				,position		= {-7.88, 7.24, 10.61}
+				,rotation		= {0.00, 180.00, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-11.81, 1.88, 12.88}
+							,rotation	= {0.00, 0.02, 0.00}
+						}
+						,{
+							position	= {-11.81, 1.88, 11.36}
+							,rotation	= {0.00, 0.02, 0.00}
+						}
+						,{
+							position	= {-11.81, 1.88, 8.34}
+							,rotation	= {0.00, 0.02, 0.00}
+						}
+						,{
+							position	= {-11.81, 1.88, 6.81}
+							,rotation	= {0.00, 0.02, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Log"
+								,tiles	= {
+									{
+										position	= {-9.19, 1.88, 9.85}
+										,rotation	= {0.00, 180.01, 0.00}
+									}
+									,{
+										position	= {-3.94, 1.88, 11.37}
+										,rotation	= {0.00, 240.02, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {-7.87, 1.88, 12.12}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "C2"
+				,position		= {1.31, 1.65, 11.37}
+				,rotation		= {0.00, 0.08, 180.00}
+			}
+			,{
+				tile			= "D1"
+				,position		= {3.94, 1.65, 5.30}
+				,rotation		= {0.00, 89.96, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564062832221372/0CD5F4C2C712736B13F64956570DECFD04F7F3B2/"
+						,position = {14.00, 1.75, 9.09}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {2.31, 1.00, 2.31}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {6.56, 1.88, 3.79}
+										,rotation	= {0.00, 180.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "81"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {6.56, 1.88, 6.82}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 5.31}
+										,rotation	= {0.00, 60.08, 0.00}
+									}
+									,{
+										position	= {3.94, 1.88, 5.30}
+										,rotation	= {0.00, 59.86, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 3.79}
+										,rotation	= {0.00, 60.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Stump"
+								,tiles	= {
+									{
+										position	= {-1.26, 1.88, 9.84}
+										,rotation	= {0.00, 60.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Earth Corridor 2"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 8.34}
+										,rotation	= {0.00, 60.01, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "M1"
+				,position		= {0.00, 1.65, -3.03}
+				,rotation		= {0.00, 299.96, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564062832221610/23A6250AA1A14C711387DD0E94E6C2B689D431BF/"
+						,position = {11.81, 1.75, -3.79}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.94, 1.00, 1.94}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, -0.76}
+										,rotation	= {0.00, 0.03, 0.00}
+									}
+									,{
+										position	= {-2.63, 1.88, -4.53}
+										,rotation	= {0.00, 0.03, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 2"
+								,tiles	= {
+									{
+										position	= {2.63, 1.88, -1.51}
+										,rotation	= {0.00, 180.52, 0.00}
+									}
+									,{
+										position	= {-2.63, 1.88, -1.52}
+										,rotation	= {0.00, 59.97, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 3"
+								,tiles	= {
+									{
+										position	= {2.65, 1.88, -6.08}
+										,rotation	= {0.00, 240.43, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	--Scenario 104
 	,[104] = {
@@ -47451,6 +47707,256 @@ ScenarioInformation_All = {
 	}
 	-- Brute Solo
 	,[200] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/878629355914710263/8AAAC04923909936B173C284A6352B4428C28ADD/"}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,doorTiles		= {
+			{
+				name	= "Stone Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"G1","I1"}
+						,position		= {x=-1.749999, y=1.817751, z=6.062178}
+						,rotation		= {x=-0.000240, y=179.999954, z=179.999268}
+					}
+				}
+			}
+			,{
+				name	= "Stone Door Vertical"
+				,tiles	= {
+					{
+						adjacentTiles	= {"G1","L1"}
+						,position		= {x=0.875000, y=1.817813, z=0.000000}
+						,rotation		= {x=-0.000242, y=180.000381, z=179.999222}
+					}
+				}
+			}
+		}
+		,mapTiles		= {
+			{
+				tile			= "L1"
+				,position		= {x=0.889695, y=-3.775473, z=-3.034077}
+				,rotation		= {x=-0.000249, y=180.008926, z=-0.000768}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-0.44, 1.93, -6.82}
+							,rotation	= {0.00, 0.03, 0.00}
+						}
+						,{
+							position	= {0.88, 1.93, -6.06}
+							,rotation	= {0.00, 0.03, 0.00}
+						}
+						,{
+							position	= {2.19, 1.93, -6.82}
+							,rotation	= {0.00, 0.03, 0.00}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Bandit Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.88, 1.82, -1.52}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-0.44, 1.82, -0.76}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.19, 1.82, -0.76}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "G1"
+				,position		= {x=0.874285, y=1.759086, z=6.063714}
+				,rotation		= {x=0.000250, y=0.024955, z=180.000763}
+				,overlayTiles	= {
+					--Traps
+					{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {x=-0.437501, y=1.931061, z=6.819950}
+										,rotation	= {x=-0.000249, y=180.004166, z=-0.000766}
+									}
+									,{
+										position	= {x=-0.437501, y=1.931067, z=5.304405}
+										,rotation	= {x=-0.000251, y=180.004272, z=-0.000765}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Bandit Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.88, 1.82, 10.61}
+							}
+						}
+					}
+					,{
+						name	= "Bandit Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-0.44, 1.82, 3.79}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.19, 1.82, 3.79}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "I1"
+				,position		= {x=-5.687500, y=1.700302, z=5.304405}
+				,rotation		= {x=-0.000249, y=179.952026, z=179.999222}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Table"
+								,tiles	= {
+									{
+										position	= {x=-4.375000, y=1.817710, z=7.577723}
+										,rotation	= {x=0.000248, y=-0.000021, z=180.000763}
+									}
+									,{
+										position	= {x=-4.374999, y=1.817729, z=3.031089}
+										,rotation	= {x=0.000248, y=-0.000043, z=180.000763}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {x=-8.312519, y=1.875147, z=9.851039}
+										,rotation	= {x=-0.000251, y=179.999847, z=-0.000768}
+									}
+									,{
+										position	= {x=-7.000002, y=1.875168, z=9.093266}
+										,rotation	= {x=-0.000246, y=180.000015, z=-0.000773}
+									}
+									,{
+										position	= {x=-5.687500, y=1.875182, z=9.851038}
+										,rotation	= {x=-0.000255, y=180.000061, z=-0.000774}
+									}
+									,{
+										position	= {x=-7.000001, y=1.875194, z=3.031089}
+										,rotation	= {x=-0.000270, y=180.000076, z=-0.000766}
+									}
+									,{
+										position	= {x=-5.687500, y=1.875215, z=2.273317}
+										,rotation	= {x=-0.000249, y=180.000061, z=-0.000772}
+									}
+									,{
+										position	= {x=-8.312503, y=1.930975, z=2.273318}
+										,rotation	= {x=-0.000249, y=180.000061, z=-0.000772}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Bandit Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-8.31, 1.82, 6.82}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-8.31, 1.82, 5.30}
+							}
+						}
+					}
+					,{
+						name	= "Living Bones"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.69, 1.82, 6.82}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.69, 1.82, 5.30}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"Living Bones"
+		}
 	}
 	-- Tinkerer Solo
 	,[201] = {

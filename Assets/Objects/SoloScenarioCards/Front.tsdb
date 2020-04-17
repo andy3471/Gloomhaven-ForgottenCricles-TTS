@@ -1,0 +1,27 @@
+# Save File
+cardsx=4
+cardsy=5
+card-width=296
+card-height=437
+zoom=0.35
+background-color=-16777216
+0_0=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Brute.jpg
+1_0=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Tinkerer.jpg
+2_0=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\SpellWeaver.jpg
+3_0=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Scoundrel.jpg
+0_1=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Cragheart.jpg
+1_1=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Mindthief.jpg
+2_1=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\SunKeeper.jpg
+3_1=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\QuarterMaster.jpg
+0_2=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Summoner.jpg
+1_2=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Nightshroud.jpg
+2_2=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\PlagueHerald.jpg
+3_2=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Bezerker.jpg
+0_3=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\SoothSinger.jpg
+1_3=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\DoomStalker.jpg
+2_3=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\SawBones.jpg
+3_3=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Elementalist.jpg
+0_4=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\BeastTyrant.jpg
+1_4=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\BladeSwarm.jpg
+2_4=C\:\\git\\Gloomhaven-ForgottenCricles-TTS\\Assets\\Objects\\SoloScenarioCards\\Diviner.jpg
+3_4=null
