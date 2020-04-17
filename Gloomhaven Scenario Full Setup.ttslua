@@ -47975,12 +47975,261 @@ ScenarioInformation_All = {
 	}
 	-- Sun Solo
 	,[206] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/878629355914712310/A269276846ABDFA6C6181D717AECB0F0A4BB70AB/"}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,mapTiles		= {
+			{
+				tile			= "L1"
+				,position		= {0.00, 7.24, -1.52}
+				,rotation		= {0.00, 180.00, 180.00}
+			}
+			,{
+				tile			= "L3"
+				,position		= {0.00, 7.24, 6.06}
+				,rotation		= {0.00, 180.00, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {0.00, 2.00, 1.52}
+							,rotation	= {0.00, 359.75, 359.99}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Earth Corridor 1"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.76, 1.52}
+										,rotation	= {0.00, 0.14, 180.00}
+									}
+									,{
+										position	= {-0.01, 1.76, 1.52}
+										,rotation	= {0.00, 359.84, 180.00}
+									}
+									,{
+										position	= {2.63, 1.76, 1.50}
+										,rotation	= {0.00, 359.03, 180.01}
+									}
+								}
+							}
+							,{
+								name	= "Earth Corridor 2"
+								,tiles	= {
+									{
+										position	= {-3.94, 1.88, 0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-1.31, 1.88, 0.75}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {1.30, 1.88, 0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {3.94, 1.88, 0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bookcase"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, 6.07}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {2.64, 1.88, 6.06}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {-2.62, 1.88, -1.51}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, -1.52}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Log"
+								,tiles	= {
+									{
+										position	= {-2.62, 1.88, 3.04}
+										,rotation	= {0.00, 299.71, 0.00}
+									}
+									,{
+										position	= {-1.31, 1.88, -2.27}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, 6.82}
+										,rotation	= {0.00, 60.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	-- Spears Solo
 	,[207] = {
 	}
 	-- Cirlces Solo
 	,[208] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/878629355914713689/38D4770575D3999621E5F524FD5BADE556521DF5/"}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,mapTiles		= {
+			{
+				tile			= "L1"
+				,position		= {0.00, 7.24, -1.52}
+				,rotation		= {0.00, 180.00, 180.00}
+			}
+			,{
+				tile			= "L3"
+				,position		= {0.00, 7.24, 6.06}
+				,rotation		= {0.00, 180.00, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-3.94, 1.88, 3.79}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-3.94, 2.00, 2.27}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-3.94, 2.00, 0.75}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-3.94, 1.88, -0.77}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Earth Corridor 1"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.76, 1.52}
+										,rotation	= {0.00, 0.14, 180.00}
+									}
+									,{
+										position	= {-0.01, 1.76, 1.52}
+										,rotation	= {0.00, 359.84, 180.00}
+									}
+									,{
+										position	= {2.63, 1.76, 1.50}
+										,rotation	= {0.00, 359.03, 180.01}
+									}
+								}
+							}
+							,{
+								name	= "Earth Corridor 2"
+								,tiles	= {
+									{
+										position	= {-3.94, 1.88, 0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-1.31, 1.88, 0.75}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {1.30, 1.88, 0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {3.94, 1.88, 0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Tree"
+								,tiles	= {
+									{
+										position	= {-1.31, 1.88, -2.27}
+										,rotation	= {0.00, 119.99, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, 4.55}
+										,rotation	= {0.00, 180.01, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, 3.03}
+										,rotation	= {0.00, 0.19, 0.00}
+									}
+									,{
+										position	= {0.00, 0.19, 0.00}
+										,rotation	= {0.00, 0.19, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Log"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, 6.06}
+										,rotation	= {0.00, 119.98, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, -3.03}
+										,rotation	= {0.00, 59.97, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	-- Moon Solo
 	,[209] = {
