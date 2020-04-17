@@ -47671,6 +47671,328 @@ ScenarioInformation_All = {
 	}
 	--Scenario 104
 	,[104] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1014941728762175673/C449CA7940931876538252CE64652838F12D8173/"}
+		},
+		scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1014941728762177378/3B2935496A2F8498536AE7E3922FA88A8D897A99/"
+				,scale = {2.30, 1.00, 2.30}
+			}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,mapTiles = {
+			{
+				tile			= "K1"
+				,position		= {1.31, 1.70, 14.40}
+				,rotation		= {0.00, 30.00, 0.00}
+			}
+			,{
+				tile			= "K2"
+				,position		= {1.31, 1.70, -2.28}
+				,rotation		= {0.00, 150.00, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941728762176481/F8BEADA2FC6F5BA914D1B063169E84EDA84F9E3B/"
+						,position = {-11.81, 1.75, 15.91}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {2.00, 1.00, 2.00}
+						,hidden = true
+						,buttonLabel = "Section 52"
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941728762176833/77783865CA1EF31BBB644AE7520881CF045091F8/"
+						,position = {14.44, 1.75, 17.43}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {2.07, 1.00, 2.07}
+						,hidden = true
+						,buttonLabel = "Section 79"
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1014941728762177118/72978892CB74C6870B5BA45AE1447572F64EA937/"
+						,position = {15.31, 1.75, -5.30}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {2.00, 1.00, 2.00}
+						,hidden = true
+						,buttonLabel = "Section 85"
+					}
+				}
+			}
+			,{
+				tile			= "D2"
+				,position		= {-2.63, 1.65, 6.06}
+				,rotation		= {0.00, 30.00, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-3.94, 1.88, 6.82}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-1.31, 1.88, 6.82}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-3.94, 1.88, 5.30}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-1.31, 1.88, 5.30}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Stone Corridor 1"
+								,tiles	= {
+									{
+										position	= {-2.62, 1.77, 10.61}
+										,rotation	= {0.00, 0.00, 180.00}
+									}
+									,{
+										position	= {-2.62, 1.77, 1.52}
+										,rotation	= {0.00, 0.00, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Stone Corridor 2"
+								,tiles	= {
+									{
+										position	= {0.00, 1.89, 9.10}
+										,rotation	= {0.00, 300.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.89, 3.03}
+										,rotation	= {0.00, 240.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Rubble"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, 16.67}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {3.94, 1.88, 12.88}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 10.61}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-2.63, 1.88, 0.00}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, -0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Rock Column"
+								,tiles	= {
+									{
+										position	= {0.00, 1.89, 15.16}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 7.58}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-1.31, 1.89, -2.27}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Stalagmites"
+								,tiles	= {
+									{
+										position	= {2.63, 1.89, 10.61}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-3.94, 1.88, 3.79}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {2.63, 1.89, 1.52}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, -6.06}
+										,rotation	= {0.00, 180.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "87"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Lurker"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.00, 1.77, 18.19}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {-2.63, 1.77, 15.16}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-2.63, 1.77, 12.12}
+							}
+						}
+					}
+					,{
+						name	= "Sun Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.56, 1.77, 12.88}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {3.94, 1.77, 14.40}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.63, 1.77, 12.12}
+							}
+						}
+					}
+					,{
+						name	= "Spitting Drake"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {5.25, 1.77, -3.03}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {6.56, 1.77, -0.76}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {3.94, 1.77, 0.76}
+							}
+						}
+					}
+					,{
+						name	= "Harrower Infester"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-2.63, 1.77, -4.55}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {0.00, 1.77, -3.03}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-1.31, 1.77, -0.76}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"Harrower Infester"
+			,"Sun Demon"
+			,"Lurker"
+			,"Spitting Drake"
+		}
 	}
 	--Scenario 105
 	,[105] = {
