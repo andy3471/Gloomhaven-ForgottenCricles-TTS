@@ -7,14 +7,55 @@
 
 <Button id="showButtons" onClick="showButtons" width="23" height="25" text="&#x25B2;" fontSize="12" rectAlignment="UpperRight" offsetXY="-414 0"></Button>
 
-<VerticalLayout id="buttons" padding="0 0 0 20" rectAlignment="UpperRight" offsetXY="-250 0" height="90" width="164">
+<VerticalLayout id="buttons" padding="0 0 0 20" rectAlignment="UpperRight" offsetXY="-250 0" height="135" width="164">
    <Button onClick="showBI">
       <Image image="BI Drawer"></Image>
    </Button>
    <Button id="showSpawner" onClick="spawnerClicked">
       <Image image="Game Setup"></Image>
    </Button>
+   <Button id="showCamControls" onClick="cameraControls">
+      <Image image="Camera Controls"></Image>
+   </Button>
 </VerticalLayout>
+
+<Panel
+  id="CameraControl"
+  visibility="false"
+  height="140"
+  width="170"
+  rectAlignment="UpperRight"
+  offsetXY="-257 -110"
+  allowDragging="true"
+  showAnimation="FadeIn"
+  hideAnimation="FadeOut"
+  animationDuration="5"
+  color="rgba(0,0,0,0.95)"
+  padding="10 10 10 10"
+  returnToOriginalPositionWhenReleased="false">
+  <VerticalLayout spacing="1">
+    <Button height="40" width="150" offsetXY="0 150" fontStyle="Bold" fontSize="18" onClick="cameraPosition(showScenarioBoard)">
+      <Image image="Scenario"></Image>
+    </Button>
+    <Button height="40" width="150" offsetXY="0 110" fontStyle="Bold" fontSize="18" onClick="cameraPosition(showGameBoard)">
+       <Image image="Play Area"></Image>
+    </Button>
+    <HorizontalLayout spacing="1">
+      <Button onClick="cameraPosition(One)">
+        <Image image="One"></Image>
+      </Button>
+      <Button onClick="cameraPosition(Two)">
+        <Image image="Two"></Image>
+      </Button>
+      <Button onClick="cameraPosition(Three)">
+        <Image image="Three"></Image>
+      </Button>
+      <Button onClick="cameraPosition(Four)">
+        <Image image="Four"></Image>
+      </Button>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Panel>
 
 <Button height="35" width="300" rectAlignment="UpperLeft" offsetXY="100 0" fontStyle="Bold" fontSize="18" onClick="showIni">
    <Image image="Initiative Drawer"></Image>
@@ -189,27 +230,27 @@
          </Button>
       </HorizontalLayout>
       <Image position="0 150 0" height="25" image="Scenario Number"></Image>
-      <Slider id="SSSlider" position="0 105 0" width="450" minValue="1" maxValue="104" value="1" wholeNumbers="true" onValueChanged="updateSliderValue"/>
+      <Slider id="SSSlider" position="0 105 0" width="450" minValue="1" maxValue="106" value="1" wholeNumbers="true" onValueChanged="updateSliderValue"/>
       <Text id="SSScenario" position="0 50 0" fontStyle="Bold" fontSize="36" text="1" color="#828282"></Text>
       <Button id="threeD" active="false" isOn="false" onClick="toggleChange" width="25" height="25" offsetXY="-75 -30">
          <Image id="threeDImage" image="Checkmark"></Image>
       </Button>
       <Image image="3D Overlay" active="false" width="90" offsetXY="0 -32"></Image>
-      <Button id="HiddenRooms1" width="25" height="25" offsetXY="-190 -80" color="#00000000" onClick="toggleChange(2)">
+      <Button id="HiddenRooms1" width="25" height="25" offsetXY="-190 -30" color="#00000000" onClick="toggleChange(2)">
          <Image id="HiddenRooms1Image" image="Radio Button Selected"></Image>
       </Button>
-      <Image width="120" image="Hidden Rooms" offsetXY="-100 -80"></Image>
-      <Button id="HiddenRooms2" width="25" height="25" offsetXY="40 -80" color="#00000000" onClick="toggleChange(1)">
+      <Image width="120" image="Hidden Rooms" offsetXY="-100 -30"></Image>
+      <Button id="HiddenRooms2" width="25" height="25" offsetXY="40 -30" color="#00000000" onClick="toggleChange(1)">
          <Image id="HiddenRooms2Image" image="Radio Button"></Image>
       </Button>
-      <Image width="130" image="Revealed Rooms" offsetXY="130 -80"></Image>
-      <HorizontalLayout height="35" offsetXY="0 -130" width="150">
+      <Image width="130" image="Revealed Rooms" offsetXY="130 -30"></Image>
+      <HorizontalLayout height="35" offsetXY="0 -80" width="150">
          <Dropdown id="typeDropdownScenario" itemHeight="25" fontSize="16" selected="Standee" onValueChanged="updateDropdown" color="#828282" itemBackgroundColors="#828282|#C4C4C4" dropdownBackgroundColor="#828282" fontStyle="Bold" textColor="#000000">
             <Option selected="true">Standee</Option>
             <Option>Hex</Option>
          </Dropdown>
       </HorizontalLayout>
-      <HorizontalLayout offsetXY="0 -200" height="50" width="450" spacing="10">
+      <HorizontalLayout offsetXY="0 -150" height="50" width="450" spacing="10">
          <Button id="createMap" onClick="spawnerClicked" textColor="#000000" fontStyle="Bold">
             <Image image="Create Map" preserveAspect="false"></Image>
          </Button>
@@ -217,10 +258,15 @@
             <Image image="Delete Map" preserveAspect="false"></Image>
          </Button>
       </HorizontalLayout>
+      <HorizontalLayout offsetXY="0 -230" height="50" width="450" spacing="10">
+         <Button id="win" onClick="spawnerClicked">
+            <Image image="Win" preserveAspect="false"></Image>
+         </Button>
+         <Button id="lost" onClick="spawnerClicked">
+            <Image image="Lost" preserveAspect="false"></Image>
+         </Button>
+      </HorizontalLayout>
    </Panel>
-   <panel id="Test">
-     I<text> hello </text>
-  </panel>
    <Panel id="MonsterSpawner" height="600" width="550" color="#00000000" rectAlignment="LowerCenter" active="false">
       <HorizontalLayout spacing="10" offsetXY="0 -25" width="500" height="50" rectAlignment="UpperCenter">
          <Button id="ScenarioMS" onClick="spawnerClicked" color="#141414">
