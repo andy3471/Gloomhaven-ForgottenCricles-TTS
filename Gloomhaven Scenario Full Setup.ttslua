@@ -50188,9 +50188,539 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Living Spirit"
+			,"Vermling Scout"
+			,"Vermling Shaman"
+		}
 	}
 	--Scenario 108
 	,[108] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564521088398839/A3207F15C58050EBB79B0C36B0BF6C425F9F13CE/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564521088399152/0D42CEBE82EDD70D3E5DC513148B3C93C2725105/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (104)"
+			}
+			,{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564521088399406/185204115CA0D410C673166080C065152F2866F0/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (111)"
+			}
+			,{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564521088399596/D433AC57A98D190A62BB57757519F21ED5148277/"
+				,scale = {2.00, 1.00, 2.00}
+				,buttonLabel = "Reveal Conclusion (120)"
+			}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,mapTiles = {
+			{
+				tile			= "L1"
+				,position		= {-1.31, 7.24, 12.88}
+				,rotation		= {0.00, 359.97, 180.00}
+			}
+			,{
+				tile			= "L3"
+				,position		= {-1.31, 7.24, 6.82}
+				,rotation		= {0.00, 180.00, 180.00}
+			}
+			,{
+				tile			= "N1"
+				,position		= {-1.31, 1.71, -3.79}
+				,rotation		= {0.00, 179.99, 0.00}
+			}
+			,{
+				tile			= "A4"
+				,position		= {-9.19, 1.71, 3.79}
+				,rotation		= {0.00, 180.06, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088460306/0F20BE10F5336D9B9EE5A874269BDFFBB54928A4/"
+						,position = {-17.94, 1.75, 8.34}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.55, 1.00, 1.55}
+						,hidden = true
+						,buttonLabel = "Section 44"
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088463560/0257FD6163A638996690B440D9826F836C204687/"
+						,position = {-17.94, 1.75, 3.79}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.55, 1.00, 1.55}
+						,hidden = true
+						,buttonLabel = "Section 37"
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088465390/16058C6806ADECC68A87EA74E2569A8C080C4D12/"
+						,position = {-17.94, 1.75, -0.76}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.55, 1.00, 1.55}
+						,hidden = true
+						,buttonLabel = "Section 101"
+					}
+				}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-9.19, 1.89, 6.82}
+							,rotation	= {0.00, 59.96, 0.00}
+						}
+						,{
+							position	= {-9.19, 1.89, 5.30}
+							,rotation	= {0.00, 59.96, 0.00}
+						}
+						,{
+							position	= {-9.18, 1.89, 3.79}
+							,rotation	= {0.00, 59.96, 0.00}
+						}
+						,{
+							position	= {-9.18, 1.89, 2.27}
+							,rotation	= {0.00, 59.96, 0.00}
+						}
+						,{
+							position	= {-9.18, 1.89, 0.76}
+							,rotation	= {0.00, 59.96, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Earth Corridor 1"
+								,tiles	= {
+									{
+										position	= {-1.31, 1.76, 9.85}
+										,rotation	= {0.00, 359.95, 180.00}
+									}
+									,{
+										position	= {-2.62, 1.76, 3.03}
+										,rotation	= {0.00, 0.31, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Earth Corridor 2"
+								,tiles	= {
+									{
+										position	= {-6.56, 1.89, 6.82}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {-6.56, 1.89, 2.27}
+										,rotation	= {0.17, 59.99, 0.01}
+									}
+									,{
+										position	= {-2.63, 1.88, 10.61}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, 9.85}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Stone Corridor 2"
+								,tiles	= {
+									{
+										position	= {-6.56, 1.89, 0.76}
+										,rotation	= {0.02, 59.88, 359.99}
+									}
+									,{
+										position	= {-2.63, 1.88, 1.52}
+										,rotation	= {0.00, 59.88, 0.00}
+									}
+									,{
+										position	= {0.01, 1.88, 3.03}
+										,rotation	= {359.82, 179.82, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_HazardousTerrain
+						,type	= {
+							{
+								name	= "Thorns"
+								,tiles	= {
+									{
+										position	= {-7.87, 1.88, 4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-6.56, 1.88, 3.79}
+										,rotation	= {0.00, 1.28, 359.99}
+									}
+									,{
+										position	= {-3.94, 1.88, 6.82}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Rubble"
+								,tiles	= {
+									{
+										position	= {-5.25, 1.88, -6.06}
+										,rotation	= {0.00, 359.97, 0.00}
+									}
+									,{
+										position	= {-3.94, 1.88, 2.25}
+										,rotation	= {0.00, 357.11, 0.00}
+									}
+									,{
+										position	= {-3.94, 1.88, -2.27}
+										,rotation	= {0.00, 359.97, 0.00}
+									}
+									,{
+										position	= {-1.31, 1.88, -2.27}
+										,rotation	= {0.00, 359.97, 0.00}
+									}
+									,{
+										position	= {1.32, 1.88, 0.75}
+										,rotation	= {0.00, 359.28, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, -5.30}
+										,rotation	= {0.00, 359.97, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Log"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 10.61}
+										,rotation	= {0.00, 180.39, 359.99}
+									}
+									,{
+										position	= {1.31, 1.88, 5.31}
+										,rotation	= {0.00, 299.97, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {-3.94, 1.88, 15.91}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-2.63, 1.88, 4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {2.62, 1.88, 13.64}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Rock Column"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, -3.04}
+										,rotation	= {0.00, 118.59, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, -6.06}
+										,rotation	= {0.00, 118.59, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Tree"
+								,tiles	= {
+									{
+										position	= {-5.25, 1.88, 9.09}
+										,rotation	= {0.00, 0.01, 0.00}
+									}
+									,{
+										position	= {1.32, 1.88, 2.28}
+										,rotation	= {0.00, 59.97, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "City Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-5.25, 1.77, 13.64}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.94, 1.77, 11.37}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.00, 1.77, 16.67}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {1.31, 1.77, 14.40}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, 11.37}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.63, 1.77, 10.61}
+							}
+						}
+					}
+					,{
+						name	= "City Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-5.25, 1.77, 7.58}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-2.63, 1.77, 15.16}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-2.63, 1.77, 12.12}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, 6.82}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.00, 1.77, 13.64}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {1.31, 1.77, 8.34}
+							}
+						}
+					}
+					,{
+						name	= "Human Commander"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, 15.91}
+							}
+						}
+					}
+					,{
+						name	= "Valrath Commander"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, -6.82}
+							}
+						}
+					}
+					,{
+						name	= "Valrath Savage"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.94, 1.77, 3.79}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.94, 1.77, -5.30}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-2.63, 1.77, -9.09}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, 3.79}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-1.31, 1.77, -0.76}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {-1.31, 1.77, -3.79}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, 3.79}
+							}
+						}
+					}
+					,{
+						name	= "Valrath Tracker"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.25, 1.77, -1.52}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.94, 1.77, -6.82}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.00, 1.77, -9.09}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, -2.27}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.63, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.63, 1.77, -6.06}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"City Archer"
+			,"City Guard"
+			,"Human Commander"
+			,"Valrath Commander"
+			,"Valrath Savage"
+			,"Valrath Tracker"
+		}
 	}
 	--Scenario 109
 	,[109] = {
