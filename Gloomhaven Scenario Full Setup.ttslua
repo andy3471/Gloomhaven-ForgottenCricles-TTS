@@ -45522,7 +45522,6 @@ ScenarioInformation_All = {
 						,scale = {0.69, 1.00, 0.69}
 						,hidden = true
 						,buttonLabel = "Section 02"
-						,guid = "5e25c4"
 					}
 					,{
 						--54
@@ -49284,6 +49283,911 @@ ScenarioInformation_All = {
 	}
 	--Scenario 107
 	,[107] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564521087996401/81678B23640E4DCE8F424F3B40DA5C4BB9C9A29A/"}
+		},
+		scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564521088000090/389488DF8D4EFB7A7203F9D8AA894B49481D099F/"
+				,scale = {1.41, 1.00, 1.41}
+			}
+		}
+		,doorTiles		= {
+			{
+				name	= "Stone Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"A2","L2"}
+						,position		= {-8.34, 1.89, 9.19}
+						,rotation		= {0.01, 270.00, 180.02}
+					}
+					,{
+						adjacentTiles	= {"N1","A2"}
+						,position		= {-3.79, 1.77, 9.19}
+						,rotation		= {-0.01, 270.00, 180.02}
+					}
+					,{
+						adjacentTiles	= {"N1","A4"}
+						,position		= {2.27, 1.77, 9.19}
+						,rotation		= {359.99, 270.00, 180.01}
+					}
+					,{
+						adjacentTiles	= {"A4","L1"}
+						,position		= {6.82, 1.77, 9.19}
+						,rotation		= {359.99, 270.00, 180.01}
+					}
+					,{
+						adjacentTiles	= {"N1","A1"}
+						,position		= {-5.30, 1.77, -1.31}
+						,rotation		= {0.01, 270.00, 179.99}
+					}
+					,{
+						adjacentTiles	= {"A1","L2"}
+						,position		= {-11.37, 1.77, -1.31}
+						,rotation		= {0.01, 270.00, 179.99}
+					}
+				}
+			}
+			,{
+				name	= "Stone Door Vertical"
+				,tiles	= {
+					{
+						adjacentTiles	= {"N1","L2"}
+						,position		= {-6.82, 1.77, 6.56}
+						,rotation		= {0.00, 270.01, 180.00}
+					}
+					,{
+						adjacentTiles	= {"N1","L2"}
+						,position		= {-6.82, 1.77, 1.31}
+						,rotation		= {0.00, 270.01, 180.00}
+					}
+				}
+			}
+			,{
+				name	= "Wooden Door Vertical"
+				,tiles	= {
+					{
+						adjacentTiles	= {"N1","L1"}
+						,position		= {5.30, 1.77, 6.56}
+						,rotation		= {0.00, 89.98, 180.00}
+					}
+					,{
+						adjacentTiles	= {"N1","L1"}
+						,position		= {5.30, 1.77, 1.31}
+						,rotation		= {0.00, 89.98, 180.00}
+					}
+				}
+			}
+			,{
+				name	= "Wooden Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"N1","B2"}
+						,position		= {-2.27, 1.77, -1.31}
+						,rotation		= {0.00, 269.99, 180.00}
+					}
+					,{
+						adjacentTiles	= {"N1","B2"}
+						,position		= {2.27, 1.77, -1.31}
+						,rotation		= {0.00, 269.99, 180.00}
+					}
+					,{
+						adjacentTiles	= {"L1","A3"}
+						,position		= {6.82, 1.77, -1.31}
+						,rotation		= {0.00, 269.99, 180.00}
+					}
+					,{
+						adjacentTiles	= {"L1","A3"}
+						,position		= {11.37, 1.77, -1.31}
+						,rotation		= {0.00, 269.99, 180.00}
+					}
+				}
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,mapTiles = {
+			{
+				tile			= "N1"
+				,position		= {-0.76, 1.71, 3.94}
+				,rotation		= {0.00, 270.02, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {0.76, 1.88, 3.94}
+							,rotation	= {0.00, 30.09, 0.00}
+						}
+						,{
+							position	= {2.27, 1.88, 3.94}
+							,rotation	= {0.00, 30.09, 0.00}
+						}
+						,{
+							position	= {1.51, 1.88, 2.62}
+							,rotation	= {0.00, 30.09, 0.00}
+						}
+						,{
+							position	= {3.03, 1.88, 2.62}
+							,rotation	= {0.00, 30.09, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Dark Pit"
+								,tiles	= {
+									{
+										position	= {-5.31, 1.88, 1.31}
+										,rotation	= {0.00, 209.90, 0.00}
+									}
+									,{
+										position	= {-5.31, 1.88, 3.94}
+										,rotation	= {0.00, 89.94, 0.00}
+									}
+									,{
+										position	= {-4.55, 1.88, 5.25}
+										,rotation	= {0.00, 30.36, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 5.25}
+										,rotation	= {0.00, 210.07, 0.01}
+									}
+									,{
+										position	= {3.79, 1.88, 1.31}
+										,rotation	= {0.00, 210.21, 0.00}
+									}
+									,{
+										position	= {3.79, 1.90, 6.55}
+										,rotation	= {359.96, 29.93, 0.76}
+									}
+								}
+							}
+							,{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {-3.79, 1.88, 1.31}
+										,rotation	= {0.00, 90.07, 0.00}
+									}
+									,{
+										position	= {-2.27, 1.88, 6.56}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {-2.28, 1.88, 3.94}
+										,rotation	= {0.00, 150.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 0.00}
+										,rotation	= {0.00, 330.00, 0.00}
+									}
+									,{
+										position	= {1.52, 1.88, 7.88}
+										,rotation	= {0.00, 90.07, 0.00}
+									}
+									,{
+										position	= {3.81, 1.88, 3.94}
+										,rotation	= {0.00, 149.74, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A2"
+				,position		= {-5.30, 1.71, 11.82}
+				,rotation		= {0.00, 270.06, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088120879/552B8C973E90554DDA87E3B6B87BC487A265C3DC/"
+						,position = {-14.40, 1.75, 13.56}
+						,rotation = {0.00, 179.99, 0.00}
+						,scale = {2.06, 1.00, 2.06}
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088130613/52C5D75D2F0FB1946623EC56972AAE3422E863E9/"
+						,position = {-7.58, 1.75, 14.88}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.85, 1.00, 0.85}
+						,hidden = true
+						,buttonLabel = "Section 31"
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.89, 11.81}
+										,rotation	= {0.00, 89.77, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-7.58, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-3.79, 1.77, 11.81}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.03, 1.77, 10.50}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-8.34, 1.77, 11.81}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A4"
+				,position		= {3.79, 1.71, 11.81}
+				,rotation		= {0.00, 90.01, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088133539/965AD03E12C9513F2ADDA607ABF0052D17531ED6/"
+						,position = {10.61, 1.75, 14.00}
+						,rotation = {0.00, 179.99, 0.00}
+						,scale = {1.65, 1.00, 1.65}
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088137375/08A11C0877109905D29AE6F8056B94A181B7AD9E/"
+						,position = {15.16, 1.75, 14.88}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.20, 1.00, 1.20}
+						,hidden = true
+						,buttonLabel = "Section 10"
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {3.79, 1.88, 11.81}
+										,rotation	= {0.00, 89.77, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.52, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.06, 1.77, 10.50}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.27, 1.77, 11.81}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {5.30, 1.77, 11.81}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "L2"
+				,position		= {-9.85, 7.24, 3.94}
+				,rotation		= {0.00, 269.99, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088145912/6511B091912F23383806A786AF060C8F3234883E/"
+						,position = {-18.94, 1.75, -1.31}
+						,rotation = {0.00, 179.99, 0.00}
+						,scale = {2.06, 1.00, 2.06}
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088151465/901AE687322C345C9F019084E0723C76A3A439E4/"
+						,position = {-16.67, 1.75, 4.38}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.71, 1.00, 0.71}
+						,hidden = true
+						,buttonLabel = "Section 5"
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {-13.64, 1.88, 2.63}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "78"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {-9.09, 1.88, 2.62}
+										,rotation	= {0.00, 89.77, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {-10.61, 1.88, 2.63}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 2"
+								,tiles	= {
+									{
+										position	= {-12.88, 1.88, 6.56}
+										,rotation	= {0.00, 329.81, 0.00}
+									}
+									,{
+										position	= {-8.33, 1.88, 6.56}
+										,rotation	= {0.00, 29.85, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 3"
+								,tiles	= {
+									{
+										position	= {-9.85, 1.88, 3.94}
+										,rotation	= {0.00, 330.08, 0.00}
+									}
+									,{
+										position	= {-10.60, 1.88, 0.01}
+										,rotation	= {0.00, 329.99, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-13.64, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= nil
+								}
+								,position		= {-11.37, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-12.12, 1.77, 7.88}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.09, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-8.34, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {-7.58, 1.77, 2.62}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "L1"
+				,position		= {8.34, -3.83, 3.94}
+				,rotation		= {0.00, 89.98, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088156277/A01539B3814F4F370FC7E70317E206011D0B734C/"
+						,position = {16.67, 1.75, 4.38}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.94, 1.00, 1.94}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {12.12, 1.88, 5.25}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "90"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Boulder"
+								,tiles	= {
+									{
+										position	= {9.09, 1.88, 5.25}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {12.12, 1.88, 2.63}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 2"
+								,tiles	= {
+									{
+										position	= {9.09, 1.88, 0.00}
+										,rotation	= {0.00, 330.04, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Boulder 3"
+								,tiles	= {
+									{
+										position	= {7.57, 1.88, 2.62}
+										,rotation	= {0.00, 330.07, 0.00}
+									}
+									,{
+										position	= {9.85, 1.88, 6.56}
+										,rotation	= {0.00, 330.03, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {6.06, 1.76, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {7.58, 1.76, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {8.34, 1.76, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {12.12, 1.76, 7.88}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {11.37, 1.76, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {11.37, 1.76, 1.31}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A1"
+				,position		= {-8.34, 1.71, -3.94}
+				,rotation		= {0.00, 89.99, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088162265/D4C823248EAD914E06866D8345CCD077C249E33F/"
+						,position = {-13.68, 1.75, -5.11}
+						,rotation = {0.00, 180.00, 0.00}
+						,scale = {1.20, 1.00, 1.20}
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088167837/68F03BA5A30DEFD47AFE844FB0B063A00AA925B3/"
+						,position = {-10.61, 1.75, -7.00}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.69, 1.00, 0.69}
+						,hidden = true
+						,buttonLabel = "Section 19"
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {-8.34, 1.89, -3.94}
+										,rotation	= {0.00, 89.77, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-11.37, 1.77, -3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-9.85, 1.77, -3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.09, 1.77, -2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-7.58, 1.77, -2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-6.82, 1.77, -3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.30, 1.77, -3.94}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B2"
+				,position		= {0.00, 1.71, -5.25}
+				,rotation		= {0.00, 90.03, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088170670/D7382C3D1AB8EB6740E2363982CFECF0F9291A24/"
+						,position = {-6.06, 1.75, -7.88}
+						,rotation = {0.00, 180.01, 0.00}
+						,scale = {1.20, 1.00, 1.20}
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088173094/6699F77728C39EE301503E2CC9EDA62ABEA5E496/"
+						,position = {1.52, 1.75, -9.63}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.10, 1.00, 1.10}
+						,hidden = true
+						,buttonLabel = "Section 43"
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, -5.25}
+										,rotation	= {0.00, 89.77, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-2.27, 1.77, -3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.00, 1.77, -2.62}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.27, 1.77, -3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.76, 1.77, -6.56}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-0.76, 1.77, -6.56}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A3"
+				,position		= {8.34, 1.71, -3.94}
+				,rotation		= {0.00, 269.83, 180.01}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088177624/36E1023568619BBA321683E84FFB49ED165D24B7/"
+						,position = {15.16, 1.75, -4.38}
+						,rotation = {0.00, 179.97, 0.00}
+						,scale = {1.36, 1.00, 1.36}
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088180126/38D4AA20C1A1355E5AA3FAFDB589E83A5915EE7A/"
+						,position = {9.85, 1.75, -7.44}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {0.69, 1.00, 0.69}
+						,hidden = true
+						,buttonLabel = "Section 56"
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {8.34, 1.88, -3.94}
+										,rotation	= {0.00, 89.77, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {6.82, 1.77, -3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {9.09, 1.77, -2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {9.85, 1.77, -3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.06, 1.77, -2.63}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {11.37, 1.77, -3.94}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	--Scenario 108
 	,[108] = {
