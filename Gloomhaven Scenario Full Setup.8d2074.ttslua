@@ -50724,6 +50724,402 @@ ScenarioInformation_All = {
 	}
 	--Scenario 109
 	,[109] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564617599082678/98F51E16CE4F093F98C88D00CBD3357DFCC37176/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564617599083522/ED86F1EBA212639946E0C85445F6B5DD88F1CB1A/"
+				,scale = {2.18, 1.00, 2.18}
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,mapTiles = {
+			{
+				tile			= "L1"
+				,position		= {9.09, 7.24, 2.63}
+				,rotation		= {0.00, 269.98, 180.00}
+			}
+			,{
+				tile			= "L3"
+				,position		= {-7.58, 7.24, 2.63}
+				,rotation		= {0.00, 269.97, 180.00}
+			}
+			,{
+				tile			= "M1"
+				,position		= {0.00, 1.65, 2.62}
+				,rotation		= {0.00, 269.98, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-1.52, 1.88, 2.63}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-0.76, 1.88, 1.31}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {0.00, 1.88, 2.63}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {0.76, 1.88, 3.94}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {1.52, 1.89, 2.63}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Earth Corridor 1"
+								,tiles	= {
+									{
+										position	= {-4.55, 1.77, 2.63}
+										,rotation	= {359.97, 90.10, 180.01}
+									}
+									,{
+										position	= {4.55, 1.77, 2.62}
+										,rotation	= {0.01, 90.00, 180.01}
+									}
+								}
+							}
+							,{
+								name	= "Earth Corridor 2"
+								,tiles	= {
+									{
+										position	= {-3.79, 1.88, 3.94}
+										,rotation	= {0.02, 269.99, 0.00}
+									}
+									,{
+										position	= {-3.79, 1.88, 1.31}
+										,rotation	= {0.00, 210.06, 0.00}
+									}
+									,{
+										position	= {-3.79, 1.88, -1.31}
+										,rotation	= {0.01, 270.00, 0.01}
+									}
+									,{
+										position	= {3.79, 1.88, 6.56}
+										,rotation	= {0.09, 90.11, 0.05}
+									}
+									,{
+										position	= {3.79, 1.88, 3.94}
+										,rotation	= {0.00, 29.96, 0.00}
+									}
+									,{
+										position	= {5.30, 1.88, 1.31}
+										,rotation	= {359.98, 269.99, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {-11.37, 1.88, -1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "94"
+										}
+									}
+									,{
+										position	= {11.37, 1.88, 6.56}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "80"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Rubble"
+								,tiles	= {
+									{
+										position	= {-8.34, 1.88, -1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-5.30, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-2.27, 1.88, 3.94}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {2.26, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {5.30, 1.88, 3.94}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {8.34, 1.88, 6.56}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {-2.27, 1.88, -1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {2.27, 1.88, 6.56}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Tree"
+								,tiles	= {
+									{
+										position	= {-3.80, 1.88, 6.55}
+										,rotation	= {0.00, 209.90, 359.98}
+									}
+									,{
+										position	= {5.30, 1.88, -1.31}
+										,rotation	= {359.98, 270.01, 0.01}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "City Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {6.06, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {9.85, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {9.09, 1.77, 5.25}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= nil
+								}
+								,position		= {10.61, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {9.09, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {9.85, 1.77, -1.31}
+							}
+						}
+					}
+					,{
+						name	= "City Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.76, 1.77, -1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {3.79, 1.88, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.06, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.82, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {11.37, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {11.37, 1.77, 1.31}
+							}
+						}
+					}
+					,{
+						name	= "Valrath Savage"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-0.76, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.79, 1.88, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.79, 1.88, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-6.06, 1.77, 5.25}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-6.06, 1.77, 0.00}
+							}
+						}
+					}
+					,{
+						name	= "Valrath Tracker"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-9.09, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.85, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.85, 1.77, -1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-11.37, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-11.37, 1.77, 1.31}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"City Archer"
+			,"City Guard"
+			,"Valrath Savage"
+			,"Valrath Tracker"
+		}
 	}
 	--Scenario 110
 	,[110] = {
