@@ -51123,6 +51123,409 @@ ScenarioInformation_All = {
 	}
 	--Scenario 110
 	,[110] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564617599278801/4DE8E7421155711933712EB7FB0AA7BF9B21E440/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564617599279861/107CDFD2CC4D8F1602BC75049237F39E94C41B1F/"
+				,scale = {2.18, 1.00, 2.18}
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,doorTiles		= {
+			{
+				name	= "Stone Door Vertical"
+				,tiles	= {
+					{
+						adjacentTiles	= {"C1","B3"}
+						,position		= {-5.30, 1.77, 3.94}
+						,rotation		= {0.09, 270.00, 180.00}
+					}
+					,{
+						adjacentTiles	= {"C1","B2"}
+						,position		= {3.79, 1.77, 3.94}
+						,rotation		= {359.91, 270.00, 180.00}
+					}
+				}
+			}
+		}
+		,mapTiles = {
+			{
+				tile			= "C2"
+				,position		= {-0.01, 1.77, 13.15}
+				,rotation		= {0.00, 89.98, 0.00}
+			}
+			,{
+				tile			= "M1"
+				,position		= {-0.76, 1.77, 3.94}
+				,rotation		= {0.00, 270.01, 0.00}
+			}
+			,{
+				tile			= "C1"
+				,position		= {0.00, 1.77, -5.25}
+				,rotation		= {0.00, 269.99, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599361172/D596219C15333EDD4605DC311C354682DFDDDF49/"
+						,position = {-9.85, 1.75, -3.06}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {2.06, 1.00, 2.06}
+						,hidden = true
+						,buttonLabel = "End of Round 4 (129)"
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599362132/41F56BCA6ACBF05F074ED777F2BE2132B9D7FD18/"
+						,position = {9.09, 1.75, -3.50}
+						,rotation = {0.00, 180.00, 180.00}
+						,scale = {1.88, 1.00, 1.88}
+						,hidden = true
+						,buttonLabel = "End of Round 8 (134)"
+					}
+				}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-0.76, 1.89, -3.94}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {0.76, 1.89, -3.94}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-1.52, 1.89, -5.25}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {0.02, 1.89, -5.28}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {1.52, 1.89, -5.26}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Man Stone Corridor 1"
+								,tiles	= {
+									{
+										position	= {-0.76, 1.77, 9.19}
+										,rotation	= {0.00, 90.00, 180.01}
+									}
+									,{
+										position	= {-0.76, 1.77, -1.31}
+										,rotation	= {359.99, 90.00, 179.98}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {-0.76, 1.88, 3.94}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "84"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Poison Gas"
+								,tiles	= {
+									{
+										position	= {0.01, 1.88, 5.25}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+									,{
+										position	= {0.82, 1.88, 3.94}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 2.63}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+									,{
+										position	= {-1.52, 1.88, 2.63}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+									,{
+										position	= {-2.28, 1.88, 3.94}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+									,{
+										position	= {-1.50, 1.88, 5.27}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {0.76, 1.88, 6.56}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-2.27, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-2.27, 1.88, 6.56}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "City Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.76, 1.77, 11.81}
+							}
+						}
+					}
+					,{
+						name	= "Savvas Lavaflow"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-0.76, 1.77, 11.81}
+							}
+						}
+					}
+					,{
+						name	= "Valrath Tracker"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.00, 1.77, 13.13}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {1.52, 1.77, 13.13}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B3"
+				,position		= {-8.34, 1.71, 3.94}
+				,rotation		= {0.00, 90.02, 180.00}
+				,overlayTiles	= {
+					{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {-9.85, 1.83, 6.56}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {-10.61, 1.83, 5.25}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {-10.60, 1.83, 2.65}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Ooze"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-9.85, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-8.34, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-8.34, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-7.58, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-6.06, 1.77, 5.25}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "B2"
+				,position		= {6.82, 1.71, 3.94}
+				,rotation		= {0.00, 270.06, 180.00}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {7.58, 1.77, 5.25}
+										,rotation	= {0.00, 270.00, 180.00}
+									}
+									,{
+										position	= {7.58, 1.77, 2.63}
+										,rotation	= {0.00, 270.00, 180.00}
+									}
+									,{
+										position	= {6.82, 1.77, 1.31}
+										,rotation	= {0.00, 270.00, 180.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {9.09, 1.83, 5.25}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {9.09, 1.83, 2.62}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {8.34, 1.83, 1.31}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Lurker"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {5.30, 1.77, 3.92}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {5.30, 1.77, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.06, 1.77, 5.25}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {8.34, 1.77, 3.94}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	--Scenario 111
 	,[111] = {
