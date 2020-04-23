@@ -43373,7 +43373,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563587905385830/9C6D6BCD99001A46B7A88955A194059C0D2B3B7D/"
 						,position = {-9.85, 1.75, -7.44}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.76, 1.00, 1.76}
 					}
 				}
@@ -43468,7 +43467,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563587905387218/651AF90AEA21114A1EE683A4ECDC26489722784A/"
 						,position = {-12.12, 1.75, 10.50}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.76, 1.00, 1.76}
 					}
 				}
@@ -43563,7 +43561,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563587905388235/0041BB04334A86DF8C5B89649E5432667E6AA212/"
 						,position = {7.58, 1.75, 10.50}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.76, 1.00, 1.76}
 					}
 				}
@@ -43911,7 +43908,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563720479310118/D8089717A785C24965211627877B73A99BF703A0/"
 						,position = {-0.76, 1.75, 15.31}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.43, 1.00, 2.43}
 					}
 				}
@@ -44015,7 +44011,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563720479314936/8F767D7BED5DE5C80DCBDC4780D111BEF9F9E6ED/"
 						,position = {18.94, 1.75, 1.31}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.43, 1.00, 2.43}
 					}
 				}
@@ -44112,7 +44107,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563720479314333/5970FBCA9E658E6E36234FC862FF50B0FB0FD31B/"
 						,position = {9.09, 1.75, -7.88}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.43, 1.00, 2.43}
 					}
 				}
@@ -44212,7 +44206,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563720479329586/E2CA2DD48BADFE338900B05299C48F862030E9DE/"
 						,position = {-18.94, 1.75, 1.31}
-						,rotation = {0.00, 180.02, 0.00}
 						,scale = {2.00, 1.00, 2.00}
 					}
 				}
@@ -44581,7 +44574,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563720479358216/CD4C46BEC550C6FC5A33B61124F3BC996FDBC9E4/"
 						,position = {-9.85, 1.75, 15.31}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.18, 1.00, 2.18}
 					}
 				}
@@ -44735,7 +44727,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563720479363316/8F87422D20FC0BAB6A4BFCEA0249B47BFAD0B41A/"
 						,position = {-3.79, 1.75, -5.69}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.18, 1.00, 2.18}
 					}
 				}
@@ -44963,7 +44954,6 @@ ScenarioInformation_All = {
 							{
 								image = "http://cloud-3.steamusercontent.com/ugc/1011563720484488386/36B2A0F11163FE6DE274DDEDCC4C961C0164301F/"
 								,position = {-7.58, 1.75, -2.63}
-								,rotation = {0.00, 180.00, 0.00}
 								,scale = {1.47, 1.00, 1.47}
 							}
 						}
@@ -45222,7 +45212,6 @@ ScenarioInformation_All = {
 							{
 								image = "http://cloud-3.steamusercontent.com/ugc/1011563720484488806/C20ED0DD681053EC42D79F9AAD9EF3556F6017D8/"
 								,position = {21.22, 1.75, 5.25}
-								,rotation = {0.00, 180.00, 0.00}
 								,scale = {2.00, 1.00, 2.00}
 							}
 						}
@@ -45518,7 +45507,6 @@ ScenarioInformation_All = {
 						--02
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411651444/83480ED4B3A40280B9152BC73A5F628633035BFE/"
 						,position = {-24.94, 1.75, 21.98}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.69, 1.00, 0.69}
 						,hidden = true
 						,buttonLabel = "Section 02"
@@ -45527,7 +45515,6 @@ ScenarioInformation_All = {
 						--54
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411660991/4CF7FD7A47C82AD58F8FCBDC8A9581EF1B193C0C/"
 						,position = {-24.94, 1.75, 18.94}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.68, 1.00, 0.68}
 						,hidden = true
 						,buttonLabel = "Section 54"
@@ -45536,7 +45523,6 @@ ScenarioInformation_All = {
 						--57
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411662278/FF70EF973B6CA3F8E8A3487A9BF6B92ECFAED37E/"
 						,position = {-24.89, 1.75, 15.92}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.68, 1.00, 0.68}
 						,hidden = true
 						,buttonLabel = "Section 57"
@@ -45545,7 +45531,6 @@ ScenarioInformation_All = {
 						--70
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411663076/E2C5E424B33F72AEE14EDF9728E10D0FE563CB07/"
 						,position = {-24.94, 1.75, 12.88}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.68, 1.00, 0.68}
 						,hidden = true
 						,buttonLabel = "Section 70"
@@ -45554,7 +45539,6 @@ ScenarioInformation_All = {
 						--74
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411665806/8306FEF4C464944DE8B95C8BB6C9CE5180A4B676/"
 						,position = {-19.69, 1.75, 21.98}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.68, 1.00, 0.68}
 						,hidden = true
 						,buttonLabel = "Section 74"
@@ -45563,7 +45547,6 @@ ScenarioInformation_All = {
 						--77
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411666420/A3C803A775FCB55CE1C4B6D42E08355963E9F681/"
 						,position = {-19.69, 1.75, 18.94}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.76, 1.00, 0.76}
 						,hidden = true
 						,buttonLabel = "Section 77"
@@ -45572,7 +45555,6 @@ ScenarioInformation_All = {
 						--109
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411647947/03CB5CB6D6A945B0E17A8896898CBD7B476C2BCE/"
 						,position = {-19.69, 1.75, 15.91}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.80, 1.00, 0.80}
 						,hidden = true
 						,buttonLabel = "Section 109"
@@ -45581,7 +45563,6 @@ ScenarioInformation_All = {
 						--113
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411649309/AB2D04469A118522A144D3B3D1FEA7F7F5F9E693/"
 						,position = {-19.69, 1.75, 12.88}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.78, 1.00, 0.78}
 						,hidden = true
 						,buttonLabel = "Section 113"
@@ -45590,7 +45571,6 @@ ScenarioInformation_All = {
 						--22
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411653734/C54FE7BBED9686293B7BB5040E1069F10714A9BC/"
 						,position = {-12.69, 1.75, 20.46}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.95, 1.00, 1.95}
 						,hidden = true
 						,buttonLabel = "Section 22"
@@ -45599,7 +45579,6 @@ ScenarioInformation_All = {
 						--46
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411657819/5185E82D556024B904DE51EE50866FEAEE163580/"
 						,position = {-17.94, 1.75, 0.75}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale ={1.83, 1.00, 1.83}
 						,hidden = true
 						,buttonLabel = "Section 46"
@@ -45608,7 +45587,6 @@ ScenarioInformation_All = {
 						--14
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411649934/F8A27F3B8C0A73EA35E254AE5017B5E55EEE0E70/"
 						,position = {7.88, 1.81, 19.70}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {2.02, 1.00, 2.02}
 						,hidden = true
 						,buttonLabel = "Section 14"
@@ -45617,7 +45595,6 @@ ScenarioInformation_All = {
 						--71
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411663980/F92A5918380670E37136C01BE879EBC9C90AFB8E/"
 						,position = {16.63, 1.75, 19.70}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.94, 1.00, 1.94}
 						,hidden = true
 						,buttonLabel = "Section 71"
@@ -45626,7 +45603,6 @@ ScenarioInformation_All = {
 						--50
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411658476/2D8F5FB26D7167B966BC22DA153416F36699FF1A/"
 						,position = {21.00, 1.75, 9.09}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {2.01, 1.00, 2.01}
 						,hidden = true
 						,buttonLabel = "Section 50"
@@ -45635,7 +45611,6 @@ ScenarioInformation_All = {
 						--39
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563971411655089/DC00A69574838AA9105934A52F145CB7612F3166/"
 						,position = {-11.38, 1.75, -6.06}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {2.01, 1.00, 2.01}
 						,hidden = true
 						,buttonLabel = "Section 39"
@@ -46604,7 +46579,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736135232/601C5B9FB9E1D0FF9A7956FD9601B4B220C68A62/"
 						,position = {23.19, 1.75, 11.37}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.62, 1.00, 2.62}
 					}
 				}
@@ -46793,7 +46767,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451059/AF8C075251E91603344C57179BB8FF6B40C574D3/"
 						,position = {10.06, 1.75, 18.94}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.76, 1.00, 1.76}
 					}
 				}
@@ -46842,7 +46815,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451464/D0D62AF8AD363D9FC7E1D07DC58F86A12CE6FACD/"
 						,position = {0.00, 1.75, 18.19}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.76, 1.00, 1.76}
 					}
 				}
@@ -46907,13 +46879,11 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451936/9D269EC9AE7704422BBA93F8DF901C055D414598/"
 						,position = {-7.88, 1.75, 13.64}
-						,rotation = {0.00, 180.02, 0.00}
 						,scale = {1.53, 1.00, 1.53}
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451712/28B3F546B2546BC493EF6853761AF820128BB3AA/"
 						,position = {-14.00, 1.75, 12.12}
-						,rotation = {0.00, 180.01, 0.00}
 						,scale = {1.59, 1.00, 1.59}
 					}
 				}
@@ -47094,7 +47064,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426801/A3D6EBD43F7D622EC73C107273A73EBC31DF9A8D/"
 						,position = {-11.37, 1.75, 12.69}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.88, 1.00, 1.88}
 					}
 				}
@@ -47140,7 +47109,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426592/D5A542C099A27EF5BA1C5565A4E9A7BF4006569A/"
 						,position = {16.67, 1.75, 13.12}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.88, 1.00, 1.88}
 					}
 				}
@@ -47218,7 +47186,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426089/34DC68DC6FC2DDC19A5382365A8941CA4D205677/"
 						,position = {-18.19, 1.75, 2.63}
-						,rotation = {0.00, 180.01, 0.00}
 						,scale = {1.48, 1.00, 1.48}
 					}
 				}
@@ -47277,7 +47244,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674426299/A9E4FD3508FD75D236BB4340DC72ED3987A8362E/"
 						,position = {11.37, 1.75, 2.19}
-						,rotation = {0.00, 180.01, 0.00}
 						,scale = {1.59, 1.00, 1.59}
 					}
 				}
@@ -47360,7 +47326,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011563885674425884/0C06F83A02DA93936438A5E09A459AABF080DFB4/"
 						,position = {-14.40, 1.75, -4.81}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.47, 1.00, 1.47}
 					}
 				}
@@ -47522,7 +47487,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564062832221372/0CD5F4C2C712736B13F64956570DECFD04F7F3B2/"
 						,position = {14.00, 1.75, 9.09}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {2.31, 1.00, 2.31}
 					}
 				}
@@ -47619,7 +47583,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564062832221610/23A6250AA1A14C711387DD0E94E6C2B689D431BF/"
 						,position = {11.81, 1.75, -3.79}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.94, 1.00, 1.94}
 					}
 				}
@@ -47694,7 +47657,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941728762176481/F8BEADA2FC6F5BA914D1B063169E84EDA84F9E3B/"
 						,position = {-11.81, 1.75, 15.91}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {2.00, 1.00, 2.00}
 						,hidden = true
 						,buttonLabel = "Section 52"
@@ -47702,7 +47664,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941728762176833/77783865CA1EF31BBB644AE7520881CF045091F8/"
 						,position = {14.44, 1.75, 17.43}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {2.07, 1.00, 2.07}
 						,hidden = true
 						,buttonLabel = "Section 79"
@@ -47710,7 +47671,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941728762177118/72978892CB74C6870B5BA45AE1447572F64EA937/"
 						,position = {15.31, 1.75, -5.30}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {2.00, 1.00, 2.00}
 						,hidden = true
 						,buttonLabel = "Section 85"
@@ -48411,7 +48371,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564389370833148/529BC1EB4B326C6697111B0503CB6E1EDCD30A82/"
 						,position = {-16.67, 1.75, 12.25}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.70, 1.00, 1.70}
 					}
 				}
@@ -48600,7 +48559,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564389370832942/7BE0731F4C4AB76DE2140DA121650846BF4BD3E9/"
 						,position = {13.64, 1.75, -3.50}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.70, 1.00, 1.70}
 					}
 				}
@@ -48795,7 +48753,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564389375759245/4705BA1D49C38D1BB4D4C2267DE5A41B8A834125/"
 						,position = {9.09, 1.75, 12.25}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.88, 1.00, 1.88}
 						,hidden = true
 						,buttonLabel = "Section 18"
@@ -48803,7 +48760,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564389375759806/03957405A511967FEE2EB4C5E0F6AB7CCE6958B5/"
 						,position = {9.85, 1.75, 5.69}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.88, 1.00, 1.88}
 						,hidden = true
 						,buttonLabel = "Section 68"
@@ -48814,7 +48770,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564389375760030/56637796C1AB39902DD9D6EFBDFC4F1927FAFAD2/"
 						,position = {9.85, 1.75, -2.19}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.88, 1.00, 1.88}
 						,hidden = true
 						,buttonLabel = "Section 87"
@@ -48822,7 +48777,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564389375760281/C6E7D43CE4961FD6A94323AE3D66E6894C9F58F6/"
 						,position = {16.67, 1.75, 10.50}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.76, 1.00, 1.76}
 						,hidden = true
 						,buttonLabel = "Section 91"
@@ -48830,7 +48784,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564389375758689/AEF60C1852C22E175A175C9B372CF1B721F84A8F/"
 						,position = {16.67, 1.75, 0.00}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.76, 1.00, 1.76}
 						,hidden = true
 						,buttonLabel = "Section 124"
@@ -48912,7 +48865,6 @@ ScenarioInformation_All = {
 					{
 							image = "http://cloud-3.steamusercontent.com/ugc/1011564389375758965/48E4F2CFC1B2419338CDB2FF8D41982F48B8919C/"
 							,position = {-16.67, 1.75, 10.50}
-							,rotation = {0.00, 180.00, 0.00}
 							,scale = {2.00, 1.00, 2.00}
 					}
 				}
@@ -49038,7 +48990,6 @@ ScenarioInformation_All = {
 					{
 							image = "http://cloud-3.steamusercontent.com/ugc/1011564389375759489/2AF1C01B8C59E5294E7C07BB024FCC7257F9EF2B/"
 							,position = {-16.67, 1.75, -3.50}
-							,rotation = {0.00, 180.02, 0.00}
 							,scale = {2.00, 1.00, 2.00}
 					}
 				}
@@ -49185,7 +49136,6 @@ ScenarioInformation_All = {
 					{
 							image = "http://cloud-3.steamusercontent.com/ugc/1011564389375836703/052C84FCC375AA85FFF5D59C67FC2B499D6A8744/"
 							,position = {-16.67, 1.75, 3.50}
-							,rotation = {0.00, 180.00, 0.00}
 							,scale = {1.76, 1.00, 1.76}
 					}
 				}
@@ -49485,13 +49435,11 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088120879/552B8C973E90554DDA87E3B6B87BC487A265C3DC/"
 						,position = {-14.40, 1.75, 13.56}
-						,rotation = {0.00, 179.99, 0.00}
 						,scale = {2.06, 1.00, 2.06}
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088130613/52C5D75D2F0FB1946623EC56972AAE3422E863E9/"
 						,position = {-7.58, 1.75, 14.88}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.85, 1.00, 0.85}
 						,hidden = true
 						,buttonLabel = "Section 31"
@@ -49566,13 +49514,11 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088133539/965AD03E12C9513F2ADDA607ABF0052D17531ED6/"
 						,position = {10.61, 1.75, 14.00}
-						,rotation = {0.00, 179.99, 0.00}
 						,scale = {1.65, 1.00, 1.65}
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088137375/08A11C0877109905D29AE6F8056B94A181B7AD9E/"
 						,position = {15.16, 1.75, 14.88}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.20, 1.00, 1.20}
 						,hidden = true
 						,buttonLabel = "Section 10"
@@ -49647,13 +49593,11 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088145912/6511B091912F23383806A786AF060C8F3234883E/"
 						,position = {-18.94, 1.75, -1.31}
-						,rotation = {0.00, 179.99, 0.00}
 						,scale = {2.06, 1.00, 2.06}
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088151465/901AE687322C345C9F019084E0723C76A3A439E4/"
 						,position = {-16.67, 1.75, 4.38}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.71, 1.00, 0.71}
 						,hidden = true
 						,buttonLabel = "Section 5"
@@ -49797,7 +49741,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088156277/A01539B3814F4F370FC7E70317E206011D0B734C/"
 						,position = {16.67, 1.75, 4.38}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.94, 1.00, 1.94}
 					}
 				}
@@ -49810,7 +49753,6 @@ ScenarioInformation_All = {
 								,tiles	= {
 									{
 										position	= {12.12, 1.88, 5.25}
-										,rotation	= {0.00, 90.00, 0.00}
 										,params		= {
 											buttonTheme		= "Treasure"
 											,buttonLabel	= "90"
@@ -49925,13 +49867,11 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088162265/D4C823248EAD914E06866D8345CCD077C249E33F/"
 						,position = {-13.68, 1.75, -5.11}
-						,rotation = {0.00, 180.00, 0.00}
 						,scale = {1.20, 1.00, 1.20}
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088167837/68F03BA5A30DEFD47AFE844FB0B063A00AA925B3/"
 						,position = {-10.61, 1.75, -7.00}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.69, 1.00, 0.69}
 						,hidden = true
 						,buttonLabel = "Section 19"
@@ -50017,13 +49957,11 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088170670/D7382C3D1AB8EB6740E2363982CFECF0F9291A24/"
 						,position = {-6.06, 1.75, -7.88}
-						,rotation = {0.00, 180.01, 0.00}
 						,scale = {1.20, 1.00, 1.20}
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088173094/6699F77728C39EE301503E2CC9EDA62ABEA5E496/"
 						,position = {1.52, 1.75, -9.63}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.10, 1.00, 1.10}
 						,hidden = true
 						,buttonLabel = "Section 43"
@@ -50106,13 +50044,11 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088177624/36E1023568619BBA321683E84FFB49ED165D24B7/"
 						,position = {15.16, 1.75, -4.38}
-						,rotation = {0.00, 179.97, 0.00}
 						,scale = {1.36, 1.00, 1.36}
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088180126/38D4AA20C1A1355E5AA3FAFDB589E83A5915EE7A/"
 						,position = {9.85, 1.75, -7.44}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {0.69, 1.00, 0.69}
 						,hidden = true
 						,buttonLabel = "Section 56"
@@ -50241,7 +50177,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088460306/0F20BE10F5336D9B9EE5A874269BDFFBB54928A4/"
 						,position = {-17.94, 1.75, 8.34}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.55, 1.00, 1.55}
 						,hidden = true
 						,buttonLabel = "Section 44"
@@ -50249,7 +50184,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088463560/0257FD6163A638996690B440D9826F836C204687/"
 						,position = {-17.94, 1.75, 3.79}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.55, 1.00, 1.55}
 						,hidden = true
 						,buttonLabel = "Section 37"
@@ -50257,7 +50191,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564521088465390/16058C6806ADECC68A87EA74E2569A8C080C4D12/"
 						,position = {-17.94, 1.75, -0.76}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.55, 1.00, 1.55}
 						,hidden = true
 						,buttonLabel = "Section 101"
@@ -51169,7 +51102,6 @@ ScenarioInformation_All = {
 					{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599361172/D596219C15333EDD4605DC311C354682DFDDDF49/"
 						,position = {-9.85, 1.75, -3.06}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {2.06, 1.00, 2.06}
 						,hidden = true
 						,buttonLabel = "End of Round 4 (129)"
@@ -51177,7 +51109,6 @@ ScenarioInformation_All = {
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599362132/41F56BCA6ACBF05F074ED777F2BE2132B9D7FD18/"
 						,position = {9.09, 1.75, -3.50}
-						,rotation = {0.00, 180.00, 180.00}
 						,scale = {1.88, 1.00, 1.88}
 						,hidden = true
 						,buttonLabel = "End of Round 8 (134)"
@@ -51529,6 +51460,881 @@ ScenarioInformation_All = {
 	}
 	--Scenario 111
 	,[111] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564617599733416/D47BA08C42A0F4BFBD6F1BC81D476F81EFBFFC5C/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564617599734115/7D608EF0E3A9141212758807DF3053E4FA732D23/"
+				,scale = {1.88, 1.00, 1.88}
+				,buttonLabel = "Reveal Conclusion (99)"
+			}
+			,{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564617599733776/234A9B209A8E44E64B0FCF8C5773ACFC3C98F40C/"
+				,scale = {1.88, 1.00, 1.88}
+				,buttonLabel = "Reveal Conclusion (135)"
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,doorTiles		= {
+			{
+				name	= "Dark Fog"
+				,tiles	= {
+					{
+						adjacentTiles	= {"F1","G1","H3"}
+						,position		= {-10.61, 1.89, 2.63}
+						,rotation		= {0.00, 270.03, 0.00}
+					}
+					,{
+						adjacentTiles	= {"F1","G1","H3"}
+						,position		= {-2.27, 1.89, 1.31}
+						,rotation		= {0.00, 270.03, 0.00}
+					}
+					,{
+						adjacentTiles	= {"G1","H3","H2"}
+						,position		= {6.82, 1.89, 3.94}
+						,rotation		= {0.00, 270.03, 0.00}
+					}
+					,{
+						adjacentTiles	= {"G1","H3","A4","H1"}
+						,position		= {-10.61, 1.88, 13.12}
+						,rotation		= {0.00, 270.03, 0.00}
+					}
+					,{
+						adjacentTiles	= {"G1","H3","A4","H1"}
+						,position		= {0.76, 1.89, 6.56}
+						,rotation		= {0.00, 270.03, 0.00}
+					}
+					,{
+						adjacentTiles	= {"H2","A3","C1"}
+						,position		= {12.12, 1.88, 13.12}
+						,rotation		= {0.00, 270.03, 0.00}
+					}
+					,{
+						adjacentTiles	= {"A4","H1","A3","C1"}
+						,position		= {6.06, 1.88, 15.75}
+						,rotation		= {0.00, 270.03, 0.00}
+					}
+				}
+			}
+		}
+		,mapTiles = {
+			{
+				tile			= "A2"
+				,position		= {-3.79, 1.71, -1.31}
+				,rotation		= {0.00, 90.02, 0.00}
+			}
+			,{
+				tile			= "F1"
+				,position		= {-9.85, 1.71, -3.94}
+				,rotation		= {0.00, 179.99, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599779986/D70BF967BA1D2665D95123F3715A5BD3DBEE0525/"
+						,position = {30.31, 1.75, 7.88}
+						,scale = {1.82, 1.00, 1.82}
+						,hidden = true
+						,buttonLabel = "Section 66"
+					}
+					,{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599777155/58C58E3001B3E4A2203555DFC7D6796E52030F6A/"
+						,position = {40.16, 1.75, 10.94}
+						,scale = {1.82, 1.00, 1.82}
+						,hidden = true
+						,buttonLabel = "Section 128"
+					}
+				}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-10.61, 1.88, -5.25}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-9.09, 1.88, -5.25}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-11.37, 1.88, -6.57}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-9.84, 1.88, -6.56}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-8.34, 1.88, -6.56}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Man Stone Corridor 1"
+								,tiles	= {
+									{
+										position	= {-7.58, 1.77, 0.00}
+										,rotation	= {0.09, 269.92, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Man Stone Corridor 2"
+								,tiles	= {
+									{
+										position	= {-8.34, 1.89, -1.31}
+										,rotation	= {359.95, 90.05, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {-3.03, 1.88, 0.00}
+										,rotation	= {359.95, 30.00, 359.93}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-9.85, 1.88, 1.31}
+										,rotation	= {0.00, 90.03, 0.00}
+									}
+									,{
+										position	= {-10.61, 1.88, 0.00}
+										,rotation	= {0.00, 90.03, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {-11.39, 1.88, 1.33}
+										,rotation	= {0.00, 88.84, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Aesther Ashblade"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-9.85, 1.77, -9.19}
+							}
+						}
+					}
+					,{
+						name	= "Aesther Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-0.76, 1.77, -1.31}
+							}
+						}
+					}
+					,{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-10.61, 1.77, -2.62}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.09, 1.77, -2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-5.30, 1.77, -1.31}
+							}
+						}
+					}
+					,{
+						name	= "Night Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-4.55, 1.77, 0.00}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "H3"
+				,position		= {-9.85, 1.65, 6.56}
+				,rotation		= {0.00, 270.05, 0.00}
+			}
+			,{
+				tile			= "G1"
+				,position		= {0.76, 1.71, 3.94}
+				,rotation		= {0.00, 89.98, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599781595/11462F9FDF2283B4CAEBA44CA4CF75A3BD77F342/"
+						,position = {-18.19, 1.75, 11.38}
+						,scale = {2.24, 1.00, 2.24}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Man Stone Corridor 1"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.77, 3.94}
+										,rotation	= {0.00, 269.98, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Man Stone Corridor 2"
+								,tiles	= {
+									{
+										position	= {-6.07, 1.88, 5.26}
+										,rotation	= {0.00, 90.25, 359.97}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Fountain"
+								,tiles	= {
+									{
+										position	= {0.76, 1.88, 3.94}
+										,rotation	= {0.00, 90.01, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {-13.64, 1.88, 5.25}
+										,rotation	= {0.00, 210.01, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {-15.16, 1.88, 5.25}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "82"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-1.52, 1.88, 5.25}
+										,rotation	= {0.00, 90.03, 0.00}
+									}
+									,{
+										position	= {3.03, 1.88, 5.25}
+										,rotation	= {0.00, 90.03, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {-0.76, 1.88, 3.93}
+										,rotation	= {0.00, 88.84, 0.00}
+									}
+									,{
+										position	= {0.01, 1.95, 5.25}
+										,rotation	= {0.00, 88.84, 0.00}
+									}
+									,{
+										position	= {1.54, 1.88, 5.26}
+										,rotation	= {0.00, 88.84, 0.00}
+									}
+									,{
+										position	= {2.28, 1.88, 3.94}
+										,rotation	= {0.00, 88.84, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {-12.12, 1.88, 5.25}
+										,rotation	= {0.00, 29.94, 0.00}
+									}
+									,{
+										position	= {-9.85, 1.88, 3.94}
+										,rotation	= {0.00, 29.94, 0.00}
+									}
+									,{
+										position	= {-3.03, 1.88, 5.25}
+										,rotation	= {0.00, 29.94, 0.00}
+									}
+									,{
+										position	= {5.29, 1.88, 3.93}
+										,rotation	= {0.00, 29.94, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {-9.09, 1.88, 10.50}
+										,rotation	= {0.00, 330.00, 0.00}
+									}
+									,{
+										position	= {-8.33, 1.88, 3.94}
+										,rotation	= {0.00, 330.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Aesther Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-12.12, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.07, 1.77, 2.65}
+							}
+						}
+					}
+					,{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-12.88, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {-7.58, 1.77, 5.25}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-4.55, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {6.06, 1.77, 5.25}
+							}
+						}
+					}
+					,{
+						name	= "Night Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {-10.61, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.85, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {4.55, 1.77, 2.63}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "H2"
+				,position		= {12.88, 1.65, 6.56}
+				,rotation		= {0.00, 269.99, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599776061/D691BC98B4D5D2A3EA6824BCF3170707CAF94FCD/"
+						,position = {12.12, 1.75, -1.75}
+						,scale = {2.18, 1.00, 2.18}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {11.37, 1.88, 3.94}
+										,rotation	= {0.04, 29.94, 0.00}
+									}
+									,{
+										position	= {12.12, 1.88, 10.50}
+										,rotation	= {0.00, 29.94, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {15.15, 1.88, 5.25}
+										,rotation	= {0.00, 150.05, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_HazardousTerrain
+						,type	= {
+							{
+								name	= "Thorns"
+								,tiles	= {
+									{
+										position	= {9.09, 1.88, 5.25}
+										,rotation	= {359.98, 269.62, 359.97}
+									}
+									,{
+										position	= {11.36, 1.88, 11.81}
+										,rotation	= {359.98, 269.62, 359.97}
+									}
+									,{
+										position	= {12.87, 1.88, 3.95}
+										,rotation	= {359.98, 269.62, 359.97}
+									}
+									,{
+										position	= {13.64, 1.88, 7.87}
+										,rotation	= {359.98, 269.62, 359.97}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {16.67, 1.88, 5.25}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "92"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Harrower Infester"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {11.37, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {13.64, 1.77, 5.25}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {11.37, 1.77, 9.19}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A4"
+				,position		= {-8.34, 1.71, 14.42}
+				,rotation		= {0.00, 269.74, 180.00}
+			}
+			,{
+				tile			= "H1"
+				,position		= {0.00, 1.65, 13.13}
+				,rotation		= {0.00, 90.02, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599783245/C94F709C51DE497A33F1D14CC67D74DF267155C4/"
+						,position = {-6.82, 1.75, 20.56}
+						,scale = {2.06, 1.00, 2.06}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Man Stone Corridor 1"
+								,tiles	= {
+									{
+										position	= {-4.55, 1.77, 15.75}
+										,rotation	= {0.00, 269.98, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Man Stone Corridor 2"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.88, 14.44}
+										,rotation	= {0.00, 90.25, 359.97}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {1.52, 1.88, 13.13}
+										,rotation	= {0.00, 269.96, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-7.58, 1.88, 15.75}
+										,rotation	= {0.00, 90.03, 0.00}
+									}
+									,{
+										position	= {-6.83, 1.88, 14.42}
+										,rotation	= {0.00, 90.03, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {-6.04, 1.88, 15.76}
+										,rotation	= {359.99, 89.85, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {-2.27, 1.88, 14.44}
+										,rotation	= {0.00, 30.21, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {-0.76, 1.88, 9.19}
+										,rotation	= {0.00, 29.94, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Aesther Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.00, 1.77, 15.75}
+							}
+						}
+					}
+					,{
+						name	= "Night Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-10.61, 1.77, 15.75}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.76, 1.77, 9.19}
+							}
+						}
+					}
+					,{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-8.34, 1.77, 14.44}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= nil
+								}
+								,position		= {-3.03, 1.77, 15.75}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_EliteConstant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {3.79, 1.77, 14.44}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A3"
+				,position		= {9.85, 1.71, 14.42}
+				,rotation		= {0.00, 270.35, 180.00}
+			}
+			,{
+				tile			= "C1"
+				,position		= {11.37, 1.77, 19.69}
+				,rotation		= {0.00, 329.91, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617599778226/B4783527F5F49643DBC2DC0E0A6EA6A0EC072692/"
+						,position = {21.22, 1.75, 18.37}
+						,scale = {2.24, 1.00, 2.24}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {10.61, 1.88, 15.75}
+										,rotation	= {359.96, 330.00, 0.02}
+									}
+									,{
+										position	= {12.88, 1.89, 17.06}
+										,rotation	= {0.00, 270.01, 0.11}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Aesther Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {12.88, 1.77, 14.44}
+							}
+						}
+					}
+					,{
+						name	= "Night Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {9.09, 1.77, 15.75}
+							}
+						}
+					}
+					,{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {9.85, 1.77, 19.69}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {14.40, 1.77, 19.69}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	--Scenario 112
 	,[112] = {
@@ -53110,6 +53916,9 @@ function spawnRoomTiles(MapTiles,DoorTiles)
 						tSection.params.buttonTheme = "Conclusion"
 						tSection.params.buttonLabel = tSection.buttonLabel
 						tSection.params.colourTint	= {r=0/255,g=0/255,b=0/255}
+						tSection.rotation = {0.00, 180.00, 180.00}
+					else
+						tSection.rotation = {0.00, 180.00, 0.00}
 					end
 
 					tSection.type				= "Custom_Token"
