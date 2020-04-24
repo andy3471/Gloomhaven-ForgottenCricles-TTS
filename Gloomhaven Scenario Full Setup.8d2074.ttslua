@@ -53369,9 +53369,438 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Stone Golem"
+			,"Living Bones"
+			,"Living Corpse"
+			,"Living Spirit"
+			,"Deep Terror"
+		}
 	}
 	--Scenario 114
 	,[114] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564617604203707/CE852F5A5EFACDBC231A8D8A6958833DD6AA0432/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564617604204245/90DD49598911AFB4BBCF6A4E232BCEC1801CC4CB/"
+				,scale = {2.68, 1.00, 2.68}
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,doorTiles		= {
+			{
+				name	= "Wooden Door Vertical"
+				,tiles	= {
+					{
+						adjacentTiles	= {"I2","A1"}
+						,position		= {3.03, 1.77, 7.87}
+						,rotation		= {0.02, 89.99, 180.01}
+					}
+				}
+			}
+		}
+		,mapTiles = {
+			{
+				tile			= "G2"
+				,position		= {-3.03, 1.71, 7.88}
+				,rotation		= {0.00, 89.98, 180.00}
+			}
+			,{
+				tile			= "I1"
+				,position		= {-8.34, 1.77, 1.31}
+				,rotation		= {0.00, 270.02, 0.00}
+			}
+			,{
+				tile			= "I2"
+				,position		= {0.76, 1.65, 1.31}
+				,rotation		= {0.00, 270.00, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {4.52, 1.88, 0.00}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {3.79, 1.88, -1.31}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {5.31, 1.88, -1.32}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+						,{
+							position	= {-0.76, 1.88, 1.31}
+							,rotation	= {0.00, 30.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Wooden Corridor 1"
+								,tiles	= {
+									{
+										position	= {-3.03, 1.77, 2.62}
+										,rotation	= {0.19, 90.00, 180.00}
+									}
+									,{
+										position	= {-3.03, 1.77, 0.00}
+										,rotation	= {0.19, 89.73, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Wooden Corridor 2"
+								,tiles	= {
+									{
+										position	= {-3.78, 1.89, 3.93}
+										,rotation	= {0.10, 89.70, 0.00}
+									}
+									,{
+										position	= {-3.79, 1.89, -1.31}
+										,rotation	= {0.10, 90.04, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Rubble"
+								,tiles	= {
+									{
+										position	= {-9.85, 1.88, 3.94}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {-6.82, 1.88, 1.31}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {-1.52, 1.88, 7.88}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {-0.76, 1.88, 3.94}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {2.27, 1.88, 1.31}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Stairs Vertical"
+								,tiles	= {
+									{
+										position	= {-7.58, 1.89, 5.25}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-6.06, 1.89, 5.25}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Barrel"
+								,tiles	= {
+									{
+										position	= {-6.82, 1.88, 9.19}
+										,rotation	= {0.00, 30.02, 0.00}
+									}
+									,{
+										position	= {-5.30, 1.88, 9.19}
+										,rotation	= {0.00, 89.96, 0.00}
+									}
+									,{
+										position	= {-2.28, 1.88, 6.56}
+										,rotation	= {0.00, 150.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Crate B"
+								,tiles	= {
+									{
+										position	= {0.76, 1.88, 9.19}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {2.27, 1.88, 6.56}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {-2.26, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-3.80, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Shelf"
+								,tiles	= {
+									{
+										position	= {-4.53, 1.89, 5.26}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Table"
+								,tiles	= {
+									{
+										position	= {-9.09, 1.89, 2.63}
+										,rotation	= {0.00, 209.99, 0.00}
+									}
+									,{
+										position	= {-4.55, 1.89, 0.00}
+										,rotation	= {0.00, 269.99, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 2.62}
+										,rotation	= {0.00, 89.89, 0.00}
+									}
+									,{
+										position	= {1.52, 1.88, 0.00}
+										,rotation	= {0.00, 210.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Aesther Ashblade"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-7.58, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= nil
+								}
+								,position		= {-5.30, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {-5.30, 1.77, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {3.79, 1.77, 3.94}
+							}
+						}
+					}
+					,{
+						name	= "Aesther Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.85, 1.77, -1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.30, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {1.52, 1.77, 7.88}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {2.27, 1.77, 3.94}
+							}
+						}
+					}
+					,{
+						name	= "Wind Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-11.37, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-8.34, 1.77, 9.19}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-2.27, 1.77, 9.19}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-0.76, 1.77, -1.31}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A1"
+				,position		= {6.82, 1.71, 9.19}
+				,rotation		= {0.00, 89.98, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564617604456796/7FF588B6737D4BF7F6E8F51D45B2C357ADBA34A6/"
+						,position = {15.91, 1.75, 8.31}
+						,scale = {2.24, 1.00, 2.24}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {8.34, 1.88, 9.19}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {9.09, 1.88, 7.87}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Cabinet"
+								,tiles	= {
+									{
+										position	= {9.83, 1.88, 9.23}
+										,rotation	= {0.00, 150.12, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Aesther Ashblade"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {3.79, 1.77, 9.19}
+							}
+						}
+					}
+					,{
+						name	= "Aesther Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {6.82, 1.77, 9.19}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {7.58, 1.77, 7.88}
+							}
+						}
+					}
+					,{
+						name	= "Wind Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {6.06, 1.77, 7.88}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	--Scenario 115
 	,[115] = {
