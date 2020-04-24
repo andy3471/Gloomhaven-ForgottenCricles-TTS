@@ -230,7 +230,7 @@
          </Button>
       </HorizontalLayout>
       <Image position="0 150 0" height="25" image="Scenario Number"></Image>
-      <Slider id="SSSlider" position="0 105 0" width="450" minValue="1" maxValue="114" value="1" wholeNumbers="true" onValueChanged="updateSliderValue"/>
+      <Slider id="SSSlider" position="0 105 0" width="450" minValue="1" maxValue="115" value="1" wholeNumbers="true" onValueChanged="updateSliderValue"/>
       <Text id="SSScenario" position="0 50 0" fontStyle="Bold" fontSize="36" text="1" color="#828282"></Text>
       <Button id="threeD" active="false" isOn="false" onClick="toggleChange" width="25" height="25" offsetXY="-75 -30">
          <Image id="threeDImage" image="Checkmark"></Image>
