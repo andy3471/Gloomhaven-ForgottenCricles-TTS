@@ -46880,11 +46880,15 @@ ScenarioInformation_All = {
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451936/9D269EC9AE7704422BBA93F8DF901C055D414598/"
 						,position = {-7.88, 1.75, 13.64}
 						,scale = {1.53, 1.00, 1.53}
+						,hidden = true
+						,buttonLabel = "Section 41"
 					}
 					,{
 						image = "http://cloud-3.steamusercontent.com/ugc/1014941430736451712/28B3F546B2546BC493EF6853761AF820128BB3AA/"
 						,position = {-14.00, 1.75, 12.12}
 						,scale = {1.59, 1.00, 1.59}
+						,hidden = true
+						,buttonLabel = "Section 93"
 					}
 				}
 				,overlayTiles	= {
@@ -54784,6 +54788,1275 @@ ScenarioInformation_All = {
 	}
 	-- Diviner Solo
 	,[217] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564754631899211/B495AD8CAB2275A9B5A1C20C74692F9D38733711/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564754631900333/5D3DB6371F257125EFC5128BB7939FA6E56F5685/"
+				,scale = {2.18, 1.00, 2.18}
+			}
+		}
+		,doorTiles		= {
+			{
+				name	= "LIght Fog"
+				,tiles	= {
+					{
+						adjacentTiles	= {"M1","G1"}
+						,position		= {0.00, 1.89, 10.60}
+						,rotation		= {0.03, 0.16, 359.98}
+					}
+					,{
+						adjacentTiles	= {"G1","L3"}
+						,position		= {0.00, 1.89, -1.52}
+						,rotation		= {359.66, 0.00, 0.00}
+					}
+					,{
+						adjacentTiles	= {"L3","H2"}
+						,position		= {5.25, 1.88, -6.06}
+						,rotation		= {0.00, 0.00, 0.24}
+					}
+				}
+			}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,mapTiles = {
+			{
+				tile			= "M1"
+				,position		= {0.00, 1.65, 15.16}
+				,rotation		= {0.00, 179.99, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {0.00, 1.88, 12.12}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_HazardousTerrain
+						,type	= {
+							{
+								name	= "Thorns"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 15.91}
+										,rotation	= {0.00, 0.03, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, 16.67}
+										,rotation	= {0.00, 0.01, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Log"
+								,tiles	= {
+									{
+										position	= {-1.31, 1.88, 15.91}
+										,rotation	= {0.00, 300.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Earth Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.00, 1.77, 18.19}
+							}
+						}
+					}
+					,{
+						name	= "Valrath Savage"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.94, 1.77, 17.43}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {3.94, 1.77, 17.43}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "G1"
+				,position		= {0.00, 1.71, 4.55}
+				,rotation		= {0.00, 179.97, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564754631919635/BB628420F2F0D73586CBFEC7BBC1DE9C22057EEE/"
+						,position = {-9.19, 1.75, 5.30}
+						,scale = {1.76, 1.00, 1.76}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 5.30}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, 5.30}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {-1.32, 1.88, 9.85}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Valrath Savage"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, -0.76}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, -0.76}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "L3"
+				,position		= {0.00, 7.24, -4.55}
+				,rotation		= {0.00, 180.00, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564754631920640/C6DB0876BF1A9D7E39AD30213B1F77F72EF9D773/"
+						,position = {-10.94, 1.75, -5.30}
+						,scale = {2.12, 1.00, 2.12}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_HazardousTerrain
+						,type	= {
+							{
+								name	= "Thorns"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, -3.03}
+										,rotation	= {0.00, 0.03, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {-2.63, 1.88, -6.06}
+										,rotation	= {0.00, 60.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.88, -2.28}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+									,{
+										position	= {3.94, 1.88, -2.27}
+										,rotation	= {0.00, 180.02, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {3.94, 1.88, -8.34}
+										,rotation	= {0.00, 120.35, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Tree"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, -3.79}
+										,rotation	= {0.00, 120.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Valrath Savage"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.00, 1.77, -7.58}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "H2"
+				,position		= {11.81, 1.65, -5.30}
+				,rotation		= {0.00, 179.98, 0.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564754631921369/C2D2A90687363ACB7F6965B5C729EE6A3A1B6650/"
+						,position = {10.94, 1.75, 5.30}
+						,scale = {2.24, 1.00, 2.24}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_HazardousTerrain
+						,type	= {
+							{
+								name	= "Thorns"
+								,tiles	= {
+									{
+										position	= {7.88, 1.88, -4.55}
+										,rotation	= {0.00, 0.03, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bush 1"
+								,tiles	= {
+									{
+										position	= {10.50, 1.88, -7.58}
+										,rotation	= {0.00, 120.35, 0.00}
+									}
+									,{
+										position	= {14.44, 1.88, -5.30}
+										,rotation	= {0.00, 120.35, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Valrath Savage"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {14.44, 1.77, -3.79}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {14.44, 1.77, -8.34}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	-- Promos + Extras
+	-- FC Challenge
+	,[300] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1011564754632094246/820A35868FB11C560B9E39B0D4B30C5075F675A9/"}
+		}
+		,scenarioConclusions	= {
+			{
+				image = "http://cloud-3.steamusercontent.com/ugc/1011564754632095349/9E7D36CBB5BED6CAC9307DA4524AB7B49E5298FC/"
+				,scale = {2.18, 1.00, 2.18}
+			}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,mapTiles = {
+			{
+				tile			= "N1"
+				,position		= {0.00, 1.71, 2.63}
+				,rotation		= {0.00, 269.98, 180.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-0.76, 1.88, 6.56}
+							,rotation	= {0.00, 29.99, 0.00}
+						}
+						,{
+							position	= {0.76, 1.88, 6.56}
+							,rotation	= {0.00, 29.99, 0.00}
+						}
+						,{
+							position	= {-1.52, 1.88, 5.25}
+							,rotation	= {0.00, 29.99, 0.00}
+						}
+						,{
+							position	= {0.01, 1.88, 5.25}
+							,rotation	= {0.00, 29.99, 0.00}
+						}
+						,{
+							position	= {1.52, 1.88, 5.25}
+							,rotation	= {0.00, 29.99, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-2.26, 1.88, -1.31}
+										,rotation	= {0.00, 269.84, 0.00}
+									}
+									,{
+										position	= {-0.74, 1.88, -1.32}
+										,rotation	= {0.00, 269.84, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, -1.31}
+										,rotation	= {0.00, 269.84, 0.00}
+									}
+									,{
+										position	= {2.28, 1.88, -1.31}
+										,rotation	= {0.00, 269.84, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Stairs Vertical"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 0.00}
+										,rotation	= {0.00, 90.01, 0.00}
+										,params			= {
+											buttonTheme = "PressurePlate"
+											,buttonLabel		= "Stairs"
+											,scriptFunction	= " getObjectFromGUID('" .. self.getGUID() .. "').call('FCChallengeStairs','A1')"
+										}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {-3.03, 1.88, 5.25}
+										,rotation	= {0.00, 89.99, 0.00}
+									}
+									,{
+										position	= {3.03, 1.88, 5.25}
+										,rotation	= {0.00, 89.99, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {-1.52, 1.88, 0.00}
+										,rotation	= {0.00, 29.99, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, 1.32}
+										,rotation	= {0.00, 149.86, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.83, 6.56}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {5.30, 1.83, 6.56}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Ancient Artillery"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.30, 1.77, -1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= nil
+								}
+								,position		= {4.55, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {5.30, 1.77, -1.31}
+							}
+						}
+					}
+					,{
+						name	= "City Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= nil
+								}
+								,position		= {-4.55, 1.77, 0.00}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-1.52, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {0.00, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {1.52, 1.77, 2.63}
+							}
+						}
+					}
+					,{
+						name	= "City Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.79, 1.77, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.79, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {3.79, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {3.79, 1.77, 1.31}
+							}
+						}
+					}
+					,{
+						name	= "Hound"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.30, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {-3.03, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= nil
+									,[4]	= nil
+								}
+								,position		= {3.03, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {5.30, 1.77, 3.94}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A1"
+				,position		= {0.00, 1.71, 2.63}
+				,rotation		= {0.00, 269.98, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564754632223795/187FC53EE671477B77F90590CF3E06CA59B8E935/"
+						,position = {-12.12, 1.75, 16.63}
+						,scale = {2.24, 1.00, 2.24}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Stairs Vertical"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 5.25}
+										,rotation	= {0.00, 270.00, 0.00}
+										,params			= {
+											buttonTheme = "PressurePlate"
+											,buttonLabel		= "Stairs"
+											,scriptFunction	= " getObjectFromGUID('" .. self.getGUID() .. "').call('FCChallengeStairs','A2')"
+										}
+									}
+								}
+							}
+							,{
+								name	= "Stairs Vertical"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 0.00}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.88, -1.31}
+										,rotation	= {0.00, 89.95, 0.00}
+									}
+									,{
+										position	= {-4.55, 1.88, 0.00}
+										,rotation	= {0.00, 89.95, 0.00}
+									}
+									,{
+										position	= {-2.27, 1.88, 1.31}
+										,rotation	= {0.00, 89.95, 0.00}
+									}
+									,{
+										position	= {2.27, 1.88, 1.31}
+										,rotation	= {0.00, 89.95, 0.00}
+									}
+									,{
+										position	= {4.55, 1.88, 0.00}
+										,rotation	= {0.00, 89.95, 0.00}
+									}
+									,{
+										position	= {5.31, 1.88, -1.31}
+										,rotation	= {0.00, 89.95, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {-3.03, 1.88, 0.00}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-0.75, 1.88, 1.33}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, 1.31}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {3.03, 1.88, -0.01}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {-0.76, 1.88, 3.94}
+										,rotation	= {0.00, 329.98, 0.00}
+									}
+									,{
+										position	= {1.53, 1.88, 5.24}
+										,rotation	= {0.00, 210.29, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.83, 6.56}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {5.30, 1.83, 6.56}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-4.55, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-2.27, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.27, 1.77, 3.94}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {4.55, 1.77, 2.62}
+							}
+						}
+					}
+					,{
+						name	= "Deep Terror"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-4.55, 1.77, 5.25}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-3.79, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {3.79, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {4.55, 1.77, 5.25}
+							}
+						}
+					}
+					,{
+						name	= "Harrower Infester"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-0.76, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.76, 1.77, 6.56}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A2"
+				,position		= {0.00, 1.71, 2.63}
+				,rotation		= {0.00, 269.98, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564754632254640/0EA6B39712A5066C2BDCF3A326DADA9214BBECF6/"
+						,position = {0.00, 1.75, 16.63}
+						,scale = {2.24, 1.00, 2.24}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Stairs Vertical"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 0.00}
+										,rotation	= {0.00, 90.05, 0.00}
+										,params			= {
+											buttonTheme = "PressurePlate"
+											,buttonLabel		= "Stairs"
+											,scriptFunction	= " getObjectFromGUID('" .. self.getGUID() .. "').call('FCChallengeStairs','A3')"
+										}
+									}
+									,{
+										position	= {0.00, 1.88, 5.25}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {-3.79, 1.88, 6.56}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {3.79, 1.88, 6.56}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Water 3"
+								,tiles	= {
+									{
+										position	= {-2.27, 1.89, -1.31}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {3.79, 1.89, -1.31}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {-3.03, 1.88, 5.25}
+										,rotation	= {0.00, 90.05, 0.00}
+									}
+									,{
+										position	= {3.03, 1.88, 5.25}
+										,rotation	= {0.00, 90.05, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {-1.51, 1.88, 0.00}
+										,rotation	= {0.00, 29.88, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, 1.31}
+										,rotation	= {0.00, 149.93, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_HazardousTerrain
+						,type	= {
+							{
+								name	= "Thorns"
+								,tiles	= {
+									{
+										position	= {-4.55, 1.88, 2.63}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-3.79, 1.88, 3.94}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {3.79, 1.88, 3.94}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {4.55, 1.88, 2.63}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {-5.30, 1.83, 6.56}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {5.30, 1.83, 6.56}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Earth Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.03, 1.77, 2.63}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-2.27, 1.77, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.27, 1.77, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {3.03, 1.77, 2.63}
+							}
+						}
+					}
+					,{
+						name	= "Forest Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-5.30, 1.77, -1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-5.30, 1.77, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.00, 1.77, 2.62}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {5.30, 1.77, 1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {5.30, 1.77, -1.31}
+							}
+						}
+					}
+					,{
+						name	= "Wind Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-4.55, 1.77, 5.25}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {4.55, 1.77, 5.25}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A3"
+				,position		= {0.00, 1.71, 2.63}
+				,rotation		= {0.00, 269.98, 180.00}
+				,scenarioSections = {
+					{
+						image = "http://cloud-3.steamusercontent.com/ugc/1011564754632257370/9240D84D07DC7C2C1B65750C40AECB30435BD42C/"
+						,position = {12.12, 1.75, 16.63}
+						,scale = {2.18, 1.00, 2.18}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Stairs Vertical"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 0.00}
+										,rotation	= {0.00, 90.05, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Stairs Horizontal"
+								,tiles	= {
+									{
+										position	= {-1.52, 1.88, 5.25}
+										,rotation	= {0.00, 90.05, 0.00}
+									}
+									,{
+										position	= {1.52, 1.88, 5.25}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Stone Pillar"
+								,tiles	= {
+									{
+										position	= {-3.03, 1.88, 0.00}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {-0.76, 1.88, 1.31}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, 1.31}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {3.03, 1.88, 0.00}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {-0.77, 1.88, 6.57}
+										,rotation	= {0.00, 90.16, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, 3.93}
+										,rotation	= {0.00, 270.10, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 5.25}
+										,rotation	= {0.00, 89.94, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "89"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Aesther Ashblade"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {0.00, 1.77, 2.62}
+							}
+						}
+					}
+					,{
+						name	= "Savvas Icestorm"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.30, 1.77, -1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-2.27, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {5.30, 1.77, 3.94}
+							}
+						}
+					}
+					,{
+						name	= "Savvas Lavaflow"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {5.30, 1.77, -1.31}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.27, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {-5.30, 1.77, 3.94}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -56217,6 +57490,38 @@ function rotate100(value)
 	startLuaCoroutine(self, "rotateTiles", value)
 end
 
+function FCChallengeStairs(value)
+	function upStairs()
+		isBusy = 1
+		local scripts = getObjectFromGUID("7ef9dd")
+		local z = {}
+		z.type				= "ScriptingTrigger"
+		z.position			= {-0.05, 4.34, 2.71}
+		z.rotation		= {0.00, 180.00, 0.00}
+		z.scale		= {12.77, 5.10, 10.53}
+		zone = spawnObject(z)
+		zone.setCustomObject(z)
+		wait(0.5)
+
+		local inZone = zone.getObjects()
+
+		for _,zoneObject in ipairs(inZone) do
+			if zoneObject.getLock() or zoneObject.getName() == "Coin 1" then
+				zoneObject.destruct()
+			end
+		end
+
+		zone.destruct()
+		isBusy = 0
+		local params = { adjacentTiles = {"N1", value}, numScenario = 300}
+
+		self.call('revealRoom',params)
+		scripts.call('cleanMonster')
+		return 1
+	end
+	startLuaCoroutine(self, "upStairs", value)
+end
+
 --------------------------------------------
 --Reveal Rooms after initial setup from door
 --------------------------------------------
@@ -56286,35 +57591,37 @@ function revealRoom(params)
 	------------------------------------------
 	params_DoorTiles = ScenarioInformation.doorTiles
 
-	for iDoorTiles=#params_DoorTiles,1,-1 do
-		local tType = params_DoorTiles[iDoorTiles]
-		for iTiles=#tType.tiles,1,-1 do
-			local tTiles = tType.tiles[iTiles]
-			local ToDelete = 1
+	if ScenarioInformation.doorTiles ~= nil then
+		for iDoorTiles=#params_DoorTiles,1,-1 do
+			local tType = params_DoorTiles[iDoorTiles]
+			for iTiles=#tType.tiles,1,-1 do
+				local tTiles = tType.tiles[iTiles]
+				local ToDelete = 1
 
-			for _,tAdjacent in ipairs(tTiles.adjacentTiles) do
-				--Keep Door Tiles adjacent to potentially spawning tiles
-				for _,params_AdjacentTiles in ipairs(params.adjacentTiles) do
-					if tAdjacent == params_AdjacentTiles then
-						ToDelete = 0
-						break
-					end
-				end
-			end
-
-			if ToDelete == 0 then
 				for _,tAdjacent in ipairs(tTiles.adjacentTiles) do
-					for _,obj in ipairs(AllObjects) do
-						if tAdjacent == obj.getName() then
-							ToDelete = 1
+					--Keep Door Tiles adjacent to potentially spawning tiles
+					for _,params_AdjacentTiles in ipairs(params.adjacentTiles) do
+						if tAdjacent == params_AdjacentTiles then
+							ToDelete = 0
 							break
 						end
 					end
 				end
-			end
 
-			if ToDelete == 1 then
-				table.remove(tType.tiles, iTiles)
+				if ToDelete == 0 then
+					for _,tAdjacent in ipairs(tTiles.adjacentTiles) do
+						for _,obj in ipairs(AllObjects) do
+							if tAdjacent == obj.getName() then
+								ToDelete = 1
+								break
+							end
+						end
+					end
+				end
+
+				if ToDelete == 1 then
+					table.remove(tType.tiles, iTiles)
+				end
 			end
 		end
 	end
