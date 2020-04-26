@@ -54622,8 +54622,361 @@ ScenarioInformation_All = {
 			}
 		}
 	}
-	-- Spears Solo
+	-- Tripple Arrow Solo
 	,[207] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/878629355914713306/4C0470CAB407362C1CC7E30FC5E5BFBB74ADDDCC/"}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,doorTiles		= {
+			{
+				name	= "Wooden Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"B1","I1","I2"}
+						,position		= {-2.63, 1.77, -4.55}
+						,rotation		= {0.00, 180.00, 180.00}
+					}
+				}
+			}
+			-- ,{
+			-- 	name	= "Treasure Chest Vertical"
+			-- 	,tiles	= {
+			-- 		{
+			-- 			adjacentTiles	= {"I2","A1"}
+			-- 			,position		= {11.81, 1.88, -0.76}
+			-- 			,rotation		= {0.23, 0.03, 0.00}
+			-- 		}
+			-- 	}
+			-- }
+		}
+		,mapTiles		= {
+			{
+				tile			= "B1"
+				,position		= {-5.25, 1.71, -4.55}
+				,rotation		= {0.00, 180.00, 0.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-7.88, 1.88, -3.03}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-7.88, 1.88, -4.54}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-7.88, 1.88, -6.06}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-5.25, 1.88, -4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {-6.57, 1.88, -2.27}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Barrel"
+								,tiles	= {
+									{
+										position	= {-6.58, 1.88, -3.80}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {-5.26, 1.88, -6.07}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "I1"
+				,position		= {1.31, 1.77, -5.30}
+				,rotation		= {0.00, 180.00, 0.00}
+
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {2.62, 1.88, -1.52}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, -4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {10.50, 1.88, -4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {6.56, 1.88, -6.82}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {7.88, 1.88, -7.58}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {2.62, 1.89, -3.03}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {3.94, 1.89, -3.79}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.89, -4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {7.88, 1.88, -6.06}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {10.50, 1.88, -6.06}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Barrel"
+								,tiles	= {
+									{
+										position	= {3.94, 1.89, -5.30}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Bookcase"
+								,tiles	= {
+									{
+										position	= {10.50, 1.88, -3.03}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {1.33, 1.89, -3.79}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {9.19, 1.88, -6.82}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {0.00, 1.89, -7.58}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Cabinet"
+								,tiles	= {
+									{
+										position	= {7.88, 1.88, -1.52}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {6.56, 1.88, -8.34}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Crate A"
+								,tiles	= {
+									{
+										position	= {-1.31, 1.88, -2.27}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+									,{
+										position	= {11.81, 1.88, -6.82}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Shelf"
+								,tiles	= {
+									{
+										position	= {5.25, 1.89, -1.51}
+										,rotation	= {0.00, 240.00, 0.00}
+									}
+									,{
+										position	= {6.56, 1.88, -5.31}
+										,rotation	= {0.00, 240.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Wooden Corridor 1"
+								,tiles	= {
+									{
+										position	= {5.25, 1.77, -7.58}
+										,rotation	= {0.00, 0.00, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Wooden Corridor 2"
+								,tiles	= {
+									{
+										position	= {5.25, 1.89, -4.55}
+										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {11.81, 1.88, -0.76}
+										,rotation	= {0.00, 0.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "G"
+										  ,scriptFunction	= "local params = { adjacentTiles = {'B1', 'A1'}, numScenario = 207} getObjectFromGUID('" .. self.getGUID() .. "').call('revealRoom', params)"
+										}
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "I2"
+				,position		= {9.19, 1.65, -5.30}
+				,rotation		= {0.00, 180.00, 180.00}
+			}
+			,{
+				tile			= "A1"
+				,position		= {9.19, 0.00, -5.30}
+				,rotation		= {0.00, 180.00, 180.00}
+				,monsters		= {
+					{
+						name	= "Bandit Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {1.31, 1.77, -8.34}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {9.19, 1.77, -8.34}
+							}
+						}
+					}
+					,{
+						name	= "Bandit Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, -0.76}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.56, 1.77, -0.76}
+							}
+						}
+					}
+					,{
+						name	= "Hound"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, -6.82}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.62, 1.77, -7.58}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"Bandit Guard"
+			,"Bandit Archer"
+			,"Hound"
+		}
 	}
 	-- Cirlces Solo
 	,[208] = {
