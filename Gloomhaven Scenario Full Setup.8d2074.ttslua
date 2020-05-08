@@ -54368,9 +54368,586 @@ ScenarioInformation_All = {
 	}
 	-- Tinkerer Solo
 	,[201] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/878629355914710590/D6F633F87B01962180B194274938FB1A7C37C79C/"}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,mapTiles		= {
+			{
+				tile			= "G1"
+				,position		= {1.52, 1.71, 10.51}
+				,rotation		= {0.00, 270.00, 180.00}
+			}
+			,{
+				tile			= "N1"
+				,position		= {1.52, 1.71, 2.62}
+				,rotation		= {0.00, 90.00, 180.00}
+				,startTiles		= {
+					name	= "Man Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-0.76, 1.88, -1.31}
+							,rotation	= {0.00, 270.00, 0.00}
+						}
+						,{
+							position	= {0.76, 1.88, -1.31}
+							,rotation	= {0.00, 270.00, 0.00}
+						}
+						,{
+							position	= {2.27, 1.88, -1.31}
+							,rotation	= {0.00, 270.00, 0.00}
+						}
+						,{
+							position	= {3.79, 1.88, -1.31}
+							,rotation	= {0.00, 270.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {-0.76, 1.88, 6.56}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {3.79, 1.88, 6.56}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Wall Section"
+								,tiles	= {
+									{
+										position	= {-0.77, 1.88, 3.94}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {5.30, 1.88, 3.94}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Man Stone Corridor 1"
+								,tiles	= {
+									{
+										position	= {-3.03, 1.77, 7.87}
+										,rotation	= {0.00, 270.00, 180.00}
+									}
+									,{
+										position	= {1.52, 1.77, 7.87}
+										,rotation	= {0.00, 270.00, 180.00}
+									}
+									,{
+										position	= {6.06, 1.77, 7.87}
+										,rotation	= {0.00, 270.00, 180.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "City Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.76, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {2.27, 1.77, 6.56}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.52, 1.77, 2.62}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {4.55, 1.77, 2.62}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-2.27, 1.77, 11.81}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {5.30, 1.77, 11.81}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.03, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.06, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.79, 1.77, 9.19}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {6.82, 1.77, 9.19}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-3.79, 1.77, 11.81}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {6.82, 1.77, 11.81}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"City Guard"
+			,"Vermling Scout"
+			,"Vermling Shamen"
+		}
 	}
 	-- Spellweaver Solo
 	,[202] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/878629355914710921/272C26A547ED0E59ABB419053770C624255C9EE1/"}
+		}
+		,gridType		= Constant_Grid_Vertical
+		,doorTiles		= {
+			{
+				name	= "Wooden Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"G2","A1"}
+						,position		= {-12.88, 1.77, 9.19}
+						,rotation		= {0.00, 90.00, 180.00}
+					}
+				}
+			}
+			,{
+				name	= "Wooden Door Vertical"
+				,tiles	= {
+					{
+						adjacentTiles	= {"G2","I1"}
+						,position		= {-6.82, 1.77, 11.81}
+						,rotation		= {0.00, 90.00, 180.00}
+					}
+				}
+			}
+			,{
+				name	= "Stone Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"I1","A2"}
+						,position		= {0.76, 1.77, 6.56}
+						,rotation		= {0.00, 90.00, 180.00}
+					}
+				}
+			}
+		}
+		,mapTiles		= {
+			{
+				tile			= "G2"
+				,position		= {-12.85, 1.71, 11.75}
+				,rotation		= {0.00, 270.00, 180.00}
+				,startTiles		= {
+					name	= "Wooden Corridor 1"
+					,tiles	= {
+						{
+							position	= {-18.19, 1.77, 13.13}
+							,rotation	= {0.00, 90.00, 0.00}
+						}
+						,{
+							position	= {-17.43, 1.77, 11.81}
+							,rotation	= {0.00, 90.00, 0.00}
+						}
+						,{
+							position	= {-18.19, 1.77, 10.50}
+							,rotation	= {0.00, 90.00, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+				{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Barrel"
+								,tiles	= {
+									{
+										position	= {-12.12, 1.88, 13.13}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-16.67, 1.88, 10.50}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+							,{
+								name	= "Crate A"
+								,tiles	= {
+									{
+										position	= {-9.09, 1.88, 13.12}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {-9.09, 1.88, 10.50}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Stairs Horizontal"
+								,tiles	= {
+									{
+										position	= {-9.85, 1.88, 11.81}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+									,{
+										position	= {-8.33, 1.88, 11.81}
+										,rotation	= {0.00, 270.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-13.64, 1.88, 13.12}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-11.37, 1.88, 11.81}
+							}
+						}
+					}
+					,{
+						name	= "Spitting Drake"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-12.12, 1.88, 10.50}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A1"
+				,position		= {-14.40, 1.71, 6.50}
+				,rotation		= {0.00, 270.00, 180.00}
+				,monsters		= {
+					{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-12.12, 1.77, 7.88}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-17.43, 1.77, 6.56}
+							}
+						}
+					}
+					,{
+						name	= "Spitting Drake"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-16.67, 1.77, 7.88}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-11.37, 1.77, 6.56}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "I1"
+				,position		= {-1.52, 1.65, 10.50}
+				,rotation		= {0.00, 90.00, 180.00}
+				,overlayTiles	= {
+				{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Bookcase"
+								,tiles	= {
+									{
+										position	= {-2.27, 1.88, 11.81}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {-6.06, 1.88, 10.50}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {-3.79, 1.88, 9.19}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+									,{
+										position	= {-1.52, 1.88, 7.87}
+										,rotation	= {0.00, 30.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Bear Trap"
+								,tiles	= {
+									{
+										position	= {-4.55, 1.88, 13.13}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-3.79, 1.88, 11.81}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-2.26, 1.88, 9.17}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {0.76, 1.88, 9.17}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+									,{
+										position	= {-3.04, 1.88, 7.88}
+										,rotation	= {0.00, 90.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-4.55, 1.77, 10.50}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.30, 1.77, 9.19}
+							}
+						}
+					}
+					,{
+						name	= "Spitting Drake"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.52, 1.77, 13.13}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A2"
+				,position		= {-0.76, 1.71, 3.94}
+				,rotation		= {0.00, 90.00, 0.00}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Horizontal"
+								,tiles	= {
+									{
+										position	= {-3.78, 1.88, 3.94}
+										,rotation	= {0.00, 90.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "G"
+										  ,scriptFunction	= "local params = { adjacentTiles = {'A2', 'A3'}, numScenario = 202} getObjectFromGUID('" .. self.getGUID() .. "').call('revealRoom', params)"
+										}
+
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Black Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.03, 1.77, 5.25}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "A3"
+				,position		= {2.27, 0.00, 4.81}
+				,rotation		= {0.00, 180.00, 180.00}
+				,monsters		= {
+					{
+						name	= "Stone Golem"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.52, 1.77, 5.25}
+							}
+						}
+					}
+				}
+			}
+		}
+		,monsterList	= {
+			"Black Imp"
+			,"Spitting Drake"
+			,"Stone Golem"
+		}
 	}
 	-- Scoundrel Solo
 	,[203] = {
@@ -54888,7 +55465,7 @@ ScenarioInformation_All = {
 											,buttonLabel	= "G"
 										  ,scriptFunction	= "local params = { adjacentTiles = {'B1', 'A1'}, numScenario = 207} getObjectFromGUID('" .. self.getGUID() .. "').call('revealRoom', params)"
 										}
-										
+
 									}
 								}
 							}
