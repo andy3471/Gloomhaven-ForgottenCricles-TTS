@@ -55334,6 +55334,231 @@ ScenarioInformation_All = {
 	}
 	-- Mindthief Solo
 	,[205] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/878629355914711924/E50E2CBD71B02AF20E24DA65F96DAB422852821A/"}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,doorTiles		= {
+			{
+				name	= "Stone Door Vertical"
+				,tiles	= {
+					{
+						adjacentTiles	= {"E1","H1"}
+						,position		= {-7.88, 1.88, 6.06}
+						,rotation		= {0.01, 0.00, 180.00}
+					}
+				}
+			}
+			,{
+				name	= "Stone Door Horizontal"
+				,tiles	= {
+					{
+						adjacentTiles	= {"H1","D1"}
+						,position		= {1.31, 1.77, 0.76}
+						,rotation		= {0.00, 0.00, 180.02}
+					}
+				}
+			}
+		}
+		,mapTiles		= {
+			{
+				tile			= "E1"
+				,position		= {-6.56, 1.71, 9.85}
+				,rotation		= {0.00, 270.01, 0.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-9.19, 1.88, 12.88}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+						,{
+							position	= {-7.87, 1.88, 12.12}
+							,rotation	= {0.00, 0.01, 0.00}
+						}
+						,{
+							position	= {-6.56, 1.88, 12.88}
+							,rotation	= {0.00, 0.00, 0.00}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-10.50, 1.77, 7.58}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-9.19, 1.77, 8.34}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-7.88, 1.77, 9.09}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-7.88, 1.77, 7.58}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-6.56, 1.77, 8.34}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-5.25, 1.77, 7.58}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "H1"
+				,position		= {-5.25, 1.65, 0.00}
+				,rotation		= {0.00, 0.03, 0.00}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Obstacles
+						,type	= {
+							{
+								name	= "Altar Horizontal"
+								,tiles	= {
+									{
+										position	= {-7.89, 1.88, 3.01}
+										,rotation	= {0.00, 359.99, 0.00}
+									}
+									,{
+										position	= {-7.88, 1.88, -1.52}
+										,rotation	= {0.00, 359.99, 0.00}
+									}
+									,{
+										position	= {-3.94, 1.88, 0.76}
+										,rotation	= {0.00, 359.99, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 1"
+								,tiles	= {
+									{
+										position	= {-5.25, 1.88, 1.52}
+										,rotation	= {0.02, 240.00, 359.97}
+									}
+									,{
+										position	= {-5.25, 1.88, 0.00}
+										,rotation	= {0.02, 240.00, 359.97}
+									}
+									,{
+										position	= {-1.33, 1.88, 2.25}
+										,rotation	= {0.02, 240.00, 359.97}
+									}
+									,{
+										position	= {-1.31, 1.88, 0.76}
+										,rotation	= {0.02, 240.00, 359.97}
+									}
+									,{
+										position	= {-1.31, 1.88, -0.76}
+										,rotation	= {0.00, 240.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "D1"
+				,position		= {5.25, 1.77, 1.52}
+				,rotation		= {0.00, 90.03, 0.00}
+				,overlayTiles	= {
+					{
+						bag	 	= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Trap"
+								,tiles	= {
+									{
+										position	= {2.63, 1.88, 3.03}
+										,rotation	= {0.00, 179.97, 0.00}
+									}
+									,{
+										position	= {3.94, 1.88, -0.76}
+										,rotation	= {0.00, 179.97, 0.00}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {3.94, 1.77, 0.76}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {5.25, 1.77, 4.55}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {7.88, 1.77, 0.00}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	-- Sun Solo
 	,[206] = {
