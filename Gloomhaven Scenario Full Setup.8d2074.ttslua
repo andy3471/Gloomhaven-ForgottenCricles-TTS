@@ -43088,28 +43088,6 @@ ScenarioInformation_All = {
 			}
 		}
 		,gridType		= Constant_Grid_Vertical
-		,doorTiles		= {
-			{
-				name	= "Dark Pit"
-				,tiles	= {
-					{
-						adjacentTiles	= {"I2","B4"}
-						,position		= {-4.54, 1.89, 0.00}
-						,rotation		= {0.00, 89.96, 0.00}
-					}
-					,{
-						adjacentTiles	= {"I2","C1"}
-						,position		= {-6.06, 1.88, 7.88}
-						,rotation		= {359.94, 150.01, 0.03}
-					}
-					,{
-						adjacentTiles	= {"I2","C2"}
-						,position		= {1.52, 1.89, 5.25}
-						,rotation		= {0.00, 210.01, 0.00}
-					}
-				}
-			}
-		}
 		,mapTiles		= {
 			{
 				tile			= "I1"
@@ -43146,6 +43124,35 @@ ScenarioInformation_All = {
 						bag		= Constant_TypeOverlay_Obstacles
 						,type	= {
 							{
+								name	= "Dark Pit"
+								,tiles	= {
+									{
+										position		= {-4.54, 1.89, 0.00}
+										,rotation		= {0.00, 89.96, 0.00}
+										,params			= {
+											buttonTheme		= "Door"
+											,scriptFunction	= "AdjacentTiles =  {'I2','B4'} NumScenario = 96"
+										}
+									}
+									,{
+										position		= {-6.06, 1.88, 7.88}
+										,rotation		= {359.94, 150.01, 0.03}
+										,params			= {
+											buttonTheme		= "Door"
+											,scriptFunction	= "AdjacentTiles =  {'I2','C1'} NumScenario = 96"
+										}
+									}
+									,{
+										position		= {1.52, 1.89, 5.25}
+										,rotation		= {0.00, 210.01, 0.00}
+										,params			= {
+											buttonTheme		= "Door"
+											,scriptFunction	= "AdjacentTiles =  {'I2','C2'} NumScenario = 96"
+										}
+									}
+								}
+							}
+							,{
 								name	= "Table"
 								,tiles	= {
 									{
@@ -46261,21 +46268,6 @@ ScenarioInformation_All = {
 							,rotation		= {0.23, 0.03, 180.00}
 						}
 					}
-				},
-				{
-					name	= "Pressure Plate"
-					,tiles	= {
-						{
-							adjacentTiles	= {"D1","J2"}
-							,position		= {2.63, 1.88, -1.52}
-							,rotation		= {0.23, 0.03, 0.00}
-						}
-						,{
-							adjacentTiles	= {"A1","A2"}
-							,position		= {0.00, 1.88, 9.09}
-							,rotation		= {0.23, 0.03, 0.00}
-						}
-					}
 				}
 				,{
 					name	= "Dark Fog"
@@ -46372,6 +46364,20 @@ ScenarioInformation_All = {
 									,{
 										position	= {0.00, 1.77, -1.52}
 										,rotation	= {359.95, 0.01, 180.00}
+									}
+								}
+							}
+							,{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										adjacentTiles	= {"D1","J2"}
+										,position		= {2.63, 1.88, -1.52}
+										,rotation		= {0.23, 0.03, 0.00}
+										,params			= {
+											buttonTheme		= "Door"
+											,scriptFunction	= "AdjacentTiles =  {'D1','J2'} NumScenario = 101"
+										}
 									}
 								}
 							}
@@ -46828,6 +46834,24 @@ ScenarioInformation_All = {
 									{
 										position	= {1.31, 1.88, 8.34}
 										,rotation	= {0.00, 0.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Corridors
+						,type	= {
+							{
+								name	= "Pressure Plate"
+								,tiles	= {
+									{
+										position	= {0.00, 1.88, 9.09}
+										,rotation	= {0.00, 1.88, 9.09}
+										,params			= {
+											buttonTheme		= "Door"
+											,scriptFunction	= "AdjacentTiles =  {'A1','A2'} NumScenario = 101"
+										}
 									}
 								}
 							}
@@ -54897,7 +54921,7 @@ ScenarioInformation_All = {
 										,params		= {
 											buttonTheme		= "Treasure"
 											,buttonLabel	= "G"
-										  ,scriptFunction	= "local params = { adjacentTiles = {'A2', 'A3'}, numScenario = 202} getObjectFromGUID('" .. self.getGUID() .. "').call('revealRoom', params)"
+											,scriptFunction	= "local params = { adjacentTiles = {'A2', 'A3'}, numScenario = 202} getObjectFromGUID('" .. self.getGUID() .. "').call('revealRoom', params)"
 										}
 
 									}
@@ -55945,7 +55969,7 @@ ScenarioInformation_All = {
 										,params		= {
 											buttonTheme		= "Treasure"
 											,buttonLabel	= "G"
-										  ,scriptFunction	= "local params = { adjacentTiles = {'B1', 'A1'}, numScenario = 207} getObjectFromGUID('" .. self.getGUID() .. "').call('revealRoom', params)"
+											,scriptFunction	= "local params = { adjacentTiles = {'B1', 'A1'}, numScenario = 207} getObjectFromGUID('" .. self.getGUID() .. "').call('revealRoom', params)"
 										}
 
 									}
@@ -58101,6 +58125,7 @@ function spawnCallback(obj,params)
 ..		"\nend"
 	end
 
+
 	obj.setLuaScript(ScriptConstruct)
 
 	if params.description ~= nil then
@@ -58177,7 +58202,6 @@ function spawnMonsters(params_MapTiles,GridType,params_AdjacentTiles)
 									end
 
 									params.monsterPosition = tIndividual.position
-
 
 									--Call Spawn Monster
 									getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
@@ -58614,6 +58638,7 @@ function spawnScenarioPages(params)
 	end
 end
 
+--Spawn Scenario Conclusion
 function spawnScenarioConclusions(params)
 	local position = {x=29.55, y=1.75, z=2.19}
 
@@ -58645,6 +58670,7 @@ function spawnScenarioConclusions(params)
 		 position.x = position.x - 10.5
 	end
 end
+
 
 --Take Back from Infinite Bag for Use
 function takeBagFromInfinite(InfiniteBag,FutureName)
@@ -58817,6 +58843,8 @@ function createMap()
 	scenarioState = nil
 end
 
+
+
 ---------------------
 --Scenario 100 Rotate
 ---------------------
@@ -58966,6 +58994,7 @@ function revealRoom(params)
 			getObjectFromGUID(params.doorTile_GUID).flip()
 			wait(3)
 			getObjectFromGUID(params.doorTile_GUID).lock()
+
 			return 1
 		end
 		startLuaCoroutine(self, "flipDoorTile")
@@ -59002,7 +59031,6 @@ function revealRoom(params)
 	--Door Tiles into Parameter if not present
 	------------------------------------------
 	params_DoorTiles = ScenarioInformation.doorTiles
-
 	if ScenarioInformation.doorTiles ~= nil then
 		for iDoorTiles=#params_DoorTiles,1,-1 do
 			local tType = params_DoorTiles[iDoorTiles]

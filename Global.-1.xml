@@ -66,6 +66,7 @@
    height="0"
    width="300"
    active="true"
+   visibility="Red|White|Blue|Green|Black"
    rectAlignment="UpperLeft"
    offsetXY="100 -40"
    color="#FFFFFF00"

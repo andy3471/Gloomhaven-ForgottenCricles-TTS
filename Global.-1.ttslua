@@ -8,20 +8,21 @@ autoSetup_guid = "faad27"
 
 mamd = { - 2.05, 1.88, - 16.05}
 mamdp = {2.05, 1.88, - 16.05}
-bless = {51.60, 4.00, 19.99}
-curse = {51.60, 4.00, 23.65}
-player1 = {51.60, 4.00, 16.38}
 
 tableInilist = {}
 
 envelopes = {}
--- if you but a player mat without states in then you have to use: state = nil
+-- if you put a player mat without states in then you have to use: state = nil
 envelopes["Brute"] = {infi = "697f18", bag = "0f374f", state = 2, life = 10, HPBarOffset = 65}
 envelopes["Scoundrel"] = {infi = "66309d", bag = "90dd43", state = 5, life = 8, HPBarOffset = 0}
 envelopes["Spellweaver"] = {infi = "0507cf", bag = "5d3782", state = 6, life = 6, HPBarOffset = 15}
 envelopes["Mindthief"] = {infi = "8c1ca4", bag = "ca026b", state = 4, life = 6, HPBarOffset = -20}
 envelopes["Cragheart"] = {infi = "ec1d2a", bag = "2ae7c4", state = 3, life = 10, HPBarOffset = 30}
 envelopes["Tinkerer"] = {infi = "fdef02", bag = "bdf901", state = 7, life = 8, HPBarOffset = -5}
+
+toCheck = {}
+toCheck["Player Curse"] = {51.60, 4.00, 23.65}
+toCheck["Bless"] = {51.60, 4.00, 19.99}
 
 function onLoad()
    megaFreeze() -- Make objects non-interactive
@@ -47,7 +48,7 @@ function megaFreeze()
       '25122d', 'c7b03c', '9d3e72', '5b42a1', '6de3bc', '8fb906', '046050', '2e70a8', '289cd7', '610e7e',
       'dbd624', 'c5625e', '939696', 'ba943a', '1fa5cf', 'f401dc', 'f2b50f', '75a0ec', '5accd8', '2c53e8',
       '12ede2', '102226', '9e7fc2', 'e596ad', '8b43a1', 'fa65df', 'e8893d', '4257e9', '88419d', 'aedd1b',
-   'e7267a', '6c775e', '10a47a', 'a41a54', 'bc1821' }
+   'e7267a', '6c775e', '10a47a', 'a41a54', '9c8c59' }
 
    --megaFreeze ACTIVATE!
    for _, guid in pairs(megaFreezeIT) do
@@ -74,8 +75,6 @@ function mark(player, value, id)
 end
 
 function looting(id)
-   print(UI.getValue(id))
-
    local classesInPlay = {}
    for color, _ in pairs(colorToPlayer) do
       if color ~= "Black" then
@@ -318,42 +317,7 @@ function endRound()
             end
          end
       elseif o.getName():find("Player Mat") then
-         local hitlist = Physics.cast({
-            origin = o.positionToWorld({0.62, 0, - 0.8}),
-            direction = {0, 1, 0},
-            type = 2,
-            size = {1, 1, 1},
-            max_distance = 0,
-            debug = false
-         }) -- returns {{Vector point, Vector normal, float distance, Object hit_object}, ...}
-         local reshuffle = false
-
-         for i, j in pairs(hitlist) do
-            if j.hit_object.tag == "Deck" or j.hit_object.tag == "Card" then
-               reshuffle = checkForBlessCurseShuffle(j.hit_object)
-            end
-            if reshuffle then
-               Wait.time(
-                  function()
-                     local findDeck = Physics.cast({
-                        origin = o.positionToWorld({0.62, 0, - 0.5}),
-                        direction = {0, 1, 0},
-                        type = 2,
-                        size = {1, 1, 1},
-                        max_distance = 0,
-                        debug = false
-                     }) -- returns {{Vector point, Vector normal, float distance, Object hit_object}, ...}
-                     for x, y in pairs(findDeck) do
-                        if y.hit_object.tag == "Deck" or y.hit_object.tag == "Card" then
-                           y.hit_object.putObject(getObjectFromGUID(reshuffle))
-                           y.hit_object.shuffle()
-                           Wait.time(function() y.hit_object.shuffle() end, 0.5, 5)
-                        end
-                     end
-                  end,
-               1)
-            end
-         end
+         checkReshuffle(o)
       end
    end
 
@@ -367,6 +331,80 @@ function endRound()
    clearIniList()
    tableInilist = {}
    Wait.frames(function() UI.setAttribute("MonsterAbilityCard", "active", false) UI.setAttribute("MACText", "text", "") end, 10)
+end
+
+function checkReshuffle(o)
+   local hitlist = Physics.cast({
+      origin = o.positionToWorld({0.62, 0, - 0.8}),
+      direction = {0, 1, 0},
+      type = 2,
+      size = {1, 1, 1},
+      max_distance = 0,
+      debug = false
+   }) -- returns {{Vector point, Vector normal, float distance, Object hit_object}, ...}
+   local shuffle = nil
+
+   for _, c in pairs(hitlist) do
+      if c.hit_object.tag == "Deck" then
+         for _, u in pairs(c.hit_object.getObjects()) do
+            if toCheck[u.name] then
+               local card = c.hit_object.takeObject({
+                  position = toCheck[u.name],
+                  guid = u.guid,
+               })
+               checkReshuffle(o)
+               return
+            elseif u.name:find("Shuffle") then
+               shuffle = c.hit_object
+            end
+         end
+      elseif c.hit_object.tag == "Card" then
+         if toCheck[c.hit_object.getName()] then
+            c.hit_object.setPositionSmooth(toCheck[c.hit_object.getName()])
+         elseif c.hit_object.getName():find("Shuffle") then
+            shuffle = c.hit_object
+         end
+      end
+   end
+   if shuffle then
+      shuffle.flip()
+      shuffle.setPositionSmooth(o.positionToWorld({0.62, 1, - 0.44}))
+      Wait.time(
+         function()
+            local findDeck = Physics.cast({
+               origin = o.positionToWorld({0.62, 0, - 0.5}),
+               direction = {0, 1, 0},
+               type = 2,
+               size = {1, 1, 1},
+               max_distance = 0,
+               debug = false
+            }) -- returns {{Vector point, Vector normal, float distance, Object hit_object}, ...}
+            for x, y in pairs(findDeck) do
+               if y.hit_object.tag == "Deck" or y.hit_object.tag == "Card" then
+                  Wait.time(function() y.hit_object.shuffle() end, 0.5, 5)
+               end
+            end
+         end,
+      1)
+   end
+end
+
+function checkForBlessCurse(deck)
+   if deck.tag == "Deck" then
+      for _, u in pairs(deck.getObjects()) do
+         if toCheck[u.name] then
+            local card = deck.takeObject({
+               position = toCheck[u.name],
+               guid = u.guid,
+               flip = true
+            })
+         end
+      end
+   elseif deck.tag == "Card" then
+      if toCheck[deck.getName()] then
+         deck.setPositionSmooth(toCheck[deck.getName()])
+      end
+   end
 end
 
 function moveRoundTracker()
@@ -438,6 +476,8 @@ function drawClicked(player, value, id)
       max_distance = 0,
       debug = false
    })
+
+   local drawn = false
    for _, c in pairs(hitlist) do
       if c.hit_object.tag == "Deck" then
          local newCard = c.hit_object.takeObject({position = discard, flip = true})
@@ -448,8 +488,22 @@ function drawClicked(player, value, id)
          else
             broadcastToAll(player.steam_name .. " (" .. getClassFromColor(color) .. ") drew: " .. newCard.getName(), {1, 1, 1})
          end
+         drawn = true
+         return
+      elseif c.hit_object.tag == "Card" then
+         c.hit_object.setPosition(discard)
+         c.hit_object.flip()
+         if shown.soloMode == true then
+            broadcastToAll(getClassFromColor(color) .. " drew: " .. c.hit_object.getName(), {1, 1, 1})
+         else
+            broadcastToAll(player.steam_name .. " (" .. getClassFromColor(color) .. ") drew: " .. c.hit_object.getName(), {1, 1, 1})
+         end
+         drawn = true
          return
       end
+   end
+   if not drawn then
+
    end
 end
 
@@ -582,22 +636,15 @@ function clearIniList()
 
 end
 
-function showBI()
-   if shown.battleInterface == false then
-      if shown.soloMode == false then
-         Global.UI.show("BattleInterface")
-      else
-         Global.UI.show("SoloInterface")
-      end
-      shown.battleInterface = true
+function showBI(player, value, id)
+   if shown.soloMode == false then
+      showForPlayer({panel = "BattleInterface", color = player.color})
    else
-      Global.UI.hide("BattleInterface")
-      Global.UI.hide("SoloInterface")
-      shown.battleInterface = false
+      showForPlayer({panel = "SoloInterface", color = player.color})
    end
 end
 
-function showButtons()
+function showButtons(player, value, id)
    if shown.buttons == false then
       Global.UI.show("buttons")
       shown.buttons = true
@@ -609,14 +656,8 @@ function showButtons()
    end
 end
 
-function showIni()
-   if shown.iniList == false then
-      Global.UI.show("iniList")
-      shown.iniList = true
-   else
-      Global.UI.hide("iniList")
-      shown.iniList = false
-   end
+function showIni(player, value, id)
+   showForPlayer({panel = "iniList", color = player.color})
 end
 
 function showSolo()
@@ -722,9 +763,17 @@ function spawnerClicked(player, value, id)
       end
 
       if partySheet then
-
-
          local level = tonumber(partySheet.UI.getAttribute("scenarioLevel", "text"))
+
+         local tabInfo = getNotebookTabs()
+         local tab = ""
+         for _, t in pairs(tabInfo) do
+            if t.title == "Options" then tab = t.body end
+         end
+         if tab:match("solo/open information:(%a*)") == "yes" then
+            level = level - 1
+            if level < 0 then level = 0 end
+         end
          for color, t in pairs(colorToPlayer) do
             if color ~= "Black" then
                local class = getClassFromColor(color)
@@ -778,7 +827,7 @@ function spawnerClicked(player, value, id)
                            type = 3,
                            size = {1, 1, 1},
                            max_distance = 0,
-                           debug = true
+                           debug = false
                         })
                         for u, v in pairs(hitlist) do
                            if k == "FC" or k == "SC" or k == "D" or k == "L" or k:find("AS") then
@@ -798,7 +847,7 @@ function spawnerClicked(player, value, id)
                            type = 3,
                            size = {18, 1, 1},
                            max_distance = 0,
-                           debug = true
+                           debug = false
                         })
                         for u, v in pairs(hitlist) do
                            if v.hit_object.tag == "Card" or v.hit_object.tag == "Deck" then
@@ -813,7 +862,7 @@ function spawnerClicked(player, value, id)
                            type = 3,
                            size = {3, 1, 10},
                            max_distance = 0,
-                           debug = true
+                           debug = false
                         })
                         for u, v in pairs(hitlist) do
                            if v.hit_object.tag == "Card" or v.hit_object.tag == "Deck" then
@@ -837,13 +886,13 @@ function spawnerClicked(player, value, id)
                      deck = AM.AMDeck
                   end
                   Wait.time(function() deck.shuffle() end, 0.5, 5)
-                  Wait.time(function() checkForBlessCurseShuffle(deck) end, 3)
+                  Wait.time(function() checkForBlessCurse(deck) end, 3)
                end
             end
          end
 
          playArea.call("buttonClickedEx", {"AMS"})
-         Wait.time(function() playArea.call("checkBlessCurse", {"AMD"}) end, 3)
+         Wait.time(function() playArea.call("checkAMDeck") end, 3)
       end
 
       if id == "win" then
@@ -853,56 +902,6 @@ function spawnerClicked(player, value, id)
       end
 
    end
-end
-
-function checkForBlessCurseShuffle(deck)
-   local reshuffle = false
-   if deck.tag == "Deck" then
-      local quantity = deck.getQuantity()
-      local blessCurse = false
-      for _, u in pairs(deck.getObjects()) do
-         local card = nil
-         if u.nickname:find("Shuffle") then
-            if quantity == 2 then
-               reshuffle = u.guid
-            else
-               reshuffle = deck.getGUID()
-            end
-         elseif u.nickname:find("Bless") then
-            card = deck.takeObject({
-               position = bless,
-               guid = u.guid,
-            })
-            blessCurse = true
-         elseif u.nickname:find("Curse") then
-            card = deck.takeObject({
-               position = curse,
-               guid = u.guid,
-            })
-            blessCurse = true
-         end
-         if card ~= nil then
-            Wait.time(function() if card.is_face_down then card.flip() end end, 1)
-         end
-      end
-      if not blessCurse and reshuffle ~= false then
-         reshuffle = deck.getGUID()
-      end
-   elseif deck.tag == "Card" then
-      if deck.getName():find("Shuffle") then
-         reshuffle = deck.getGUID()
-      elseif deck.getName() == "Player -1" then
-         if deck.is_face_down then deck.flip() end
-         deck.setPositionSmooth(player1)
-      elseif deck.getName():find("Bless") then
-         if deck.is_face_down then deck.flip() end
-         deck.setPositionSmooth(bless)
-      elseif deck.getName():find("Curse") then
-         if deck.is_face_down then deck.flip() end
-         deck.setPositionSmooth(curse)
-      end
-   end
-   return reshuffle
 end
 
 function resetLevel(params)
@@ -1027,7 +1026,7 @@ function createMap(params)
 
       if battleGoals.getQuantity() < 24 then
          broadcastToAll("There are less then 24 Battle Goals in the Deck. Discard Battle Goals and Deal by hand.", "Red")
-            return
+         return
       end
 
       Wait.time(
@@ -1051,6 +1050,7 @@ function showForPlayer(params)
    local color = params.color
    local opened = self.UI.getAttribute(panel, "visibility")
    if opened == nil then opened = "" end
+
    if opened:find(color) then
       opened = opened:gsub("|" .. color, "")
       opened = opened:gsub(color .. "|", "")
@@ -1058,13 +1058,13 @@ function showForPlayer(params)
       self.UI.setAttribute(panel, "visibility", opened)
       if opened == "" then
          self.UI.setAttribute(panel, "active", "false")
-         shown.spawner = false
+         shown[panel] = false
       end
    else
-      if shown.spawner == false then
+      if shown[panel] ~= true then
          self.UI.setAttribute(panel, "active", "true")
          self.UI.setAttribute(panel, "visibility", color)
-         shown.spawner = true
+         shown[panel] = true
       else
          self.UI.setAttribute(panel, "visibility", opened .. "|" .. color)
       end
@@ -1105,7 +1105,7 @@ end
 
 function cameraControls(player, value, id)
    if id == "showCamControls" then
-      showCamForPlayer({panel = "CameraControl", color = player.color})
+      showForPlayer({panel = "CameraControl", color = player.color})
    end
 end
 
@@ -1157,36 +1157,37 @@ function cameraPosition(player, button)
    end
 end
 
-function showCamForPlayer(params)
-   local panel = params.panel
-   local color = params.color
-   local opened = self.UI.getAttribute(panel, "visibility")
-   if opened == nil then opened = "" end
-   if opened:find(color) then
-      opened = opened:gsub("|" .. color, "")
-      opened = opened:gsub(color .. "|", "")
-      opened = opened:gsub(color, "")
-      self.UI.setAttribute(panel, "visibility", opened)
-      if opened == "" then
-         self.UI.setAttribute(panel, "active", "false")
-         shown.CameraControls = false
-      end
-   else
-      if shown.CameraControls == false then
-         self.UI.setAttribute(panel, "active", "true")
-         self.UI.setAttribute(panel, "visibility", color)
-         shown.CameraControls = true
-      else
-         self.UI.setAttribute(panel, "visibility", opened .. "|" .. color)
-      end
-   end
-end
+-- function showCamForPlayer(params)
+--    local panel = params.panel
+--    local color = params.color
+--    local opened = self.UI.getAttribute(panel, "visibility")
+--    if opened == nil then opened = "" end
+--    if opened:find(color) then
+--       opened = opened:gsub("|" .. color, "")
+--       opened = opened:gsub(color .. "|", "")
+--       opened = opened:gsub(color, "")
+--       self.UI.setAttribute(panel, "visibility", opened)
+--       if opened == "" then
+--          self.UI.setAttribute(panel, "active", "false")
+--          shown.CameraControls = false
+--       end
+--    else
+--       if shown.CameraControls == false then
+--          self.UI.setAttribute(panel, "active", "true")
+--          self.UI.setAttribute(panel, "visibility", color)
+--          shown.CameraControls = true
+--       else
+--          self.UI.setAttribute(panel, "visibility", opened .. "|" .. color)
+--       end
+--    end
+-- end
 
 shown = {
    battleInterface = false,
-   iniList = false,
+   iniList = true,
    soloMode = false,
-   spawner = false
+   spawner = false,
+   CameraControls = false
 }
 
 isElite = false
