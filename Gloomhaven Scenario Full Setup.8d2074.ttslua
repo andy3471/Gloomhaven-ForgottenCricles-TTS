@@ -43737,7 +43737,6 @@ ScenarioInformation_All = {
 					}
 				}
 				,overlayTiles	= {
-					--Difficult Terrain
 					{
 						bag		= Constant_TypeOverlay_Obstacles
 						,type	= {
@@ -43762,12 +43761,7 @@ ScenarioInformation_All = {
 									}
 								}
 							}
-						}
-					}
-					,{
-						bag		= Constant_TypeOverlay_Obstacles
-						,type	= {
-							{
+							,{
 								name	= "Dark Pit"
 								,tiles	= {
 									{
@@ -44238,6 +44232,24 @@ ScenarioInformation_All = {
 									,{
 										position	= {-12.88, 1.88, -1.31}
 										,rotation	= {0.00, 209.99, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Stairs Horizontal"
+								,tiles	= {
+									{
+										position	= {-9.85, 1.88, 1.31}
+										,rotation	= {359.99, 90.06, 0.02}
+									}
+									,{
+										position	= {-8.34, 1.88, 1.30}
+										,rotation	= {0.00, 90.34, 0.00}
 									}
 								}
 							}
