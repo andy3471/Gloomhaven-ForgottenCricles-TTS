@@ -60317,6 +60317,284 @@ ScenarioInformation_All = {
 			}
 		}
 	}
+	-- Demo Scenario
+	,[301] = {
+		scenarioPages	= {
+			{image = "http://cloud-3.steamusercontent.com/ugc/1018323012512830178/47DFDA1421194543D7751AB7E076DCFF9BF8A867/"}
+		}
+		,gridType		= Constant_Grid_Horizontal
+		,mapTiles = {
+			{
+				tile			= "N1"
+				,position		= {0.00, 1.71, 4.55}
+				,rotation		= {0.00, 0.00, 0.00}
+				,startTiles		= {
+					name	= "Stone Corridor 1"
+					,tiles	= {
+						{
+							position	= {-3.94, 1.88, 2.27}
+							,rotation	= {0.00, 59.70, 0.00}
+						}
+						,{
+							position	= {-2.64, 1.88, 1.52}
+							,rotation	= {0.00, 59.70, 0.00}
+						}
+						,{
+							position	= {-2.62, 1.88, 0.00}
+							,rotation	= {0.00, 59.70, 0.00}
+						}
+						,{
+							position	= {-3.94, 1.88, -0.76}
+							,rotation	= {0.00, 59.71, 0.00}
+						}
+					}
+				}
+				,overlayTiles	= {
+					{
+						bag		= Constant_TypeOverlay_DifficultTerrain
+						,type	= {
+							{
+								name	= "Water 2"
+								,tiles	= {
+									{
+										position	= {-3.94, 1.88, 5.30}
+										,rotation	= {0.00, 60.02, 0.00}
+									}
+									,{
+										position	= {-1.31, 1.88, 8.34}
+										,rotation	= {0.00, 60.02, 0.00}
+									}
+									,{
+										position	= {0.00, 1.88, 0.00}
+										,rotation	= {0.00, 60.02, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, 3.03}
+										,rotation	= {0.00, 60.02, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag		= Constant_TypeOverlay_Traps
+						,type	= {
+							{
+								name	= "Spike Traps"
+								,tiles	= {
+									{
+										position	= {1.31, 1.88, 6.82}
+										,rotation	= {0.00, 359.93, 0.00}
+									}
+									,{
+										position	= {2.63, 1.88, 6.06}
+										,rotation	= {0.00, 359.93, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						type	= {
+							{
+								name	= "Coin 1"
+								,tiles	= {
+									{
+										position	= {-3.94, 1.82, 6.82}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {-3.94, 1.82, 9.85}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {-2.63, 1.82, 9.09}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {1.31, 1.82, -0.76}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {2.63, 1.82, 1.52}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+									,{
+										position	= {3.94, 1.82, 2.27}
+										,rotation	= {0.00, 180.00, 0.00}
+									}
+								}
+							}
+						}
+					}
+					,{
+						bag	 	= Constant_TypeOverlay_TreasureChests
+						,type	= {
+							{
+								name	= "Treasure Chest Vertical"
+								,tiles	= {
+									{
+										position	= {3.94, 1.88, 8.34}
+										,rotation	= {0.00, 180.00, 0.00}
+										,params		= {
+											buttonTheme		= "Treasure"
+											,buttonLabel	= "G"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Bandit Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-3.94, 1.77, 0.76}
+							}
+						}
+					}
+					,{
+						name	= "Inox Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {-1.31, 1.77, 6.82}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-1.31, 1.77, 5.30}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.00, 1.77, 4.55}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {0.00, 1.77, 3.03}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, 2.27}
+							}
+						}
+					}
+					,{
+						name	= "Inox Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {1.31, 1.77, 8.34}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {2.63, 1.77, 7.58}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {3.94, 1.77, 6.82}
+							}
+						}
+					}
+					,{
+						name	= "Inox Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {-3.94, 1.77, 8.34}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {3.94, 1.77, 0.76}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	-- NPI1 - End of the World
+	,[302] = {
+	}
+	-- NPI2 - Beyond the End of the World
+	,[303] = {
+	}
+	-- NPI3 - Memories of Gloomhaven
+	,[304] = {
+	}
+	-- DT1 - The Tower of Misfortune
+	,[305] = {
+	}
+	-- DT2 - The Catacombs of Chaos
+	,[306] = {
+	}
+	-- MVM1 - The Lucky Meeple
+	,[307] = {
+	}
+	-- Children of Miracle Workers
+	,[308] = {
+	}
+	-- SC1 - Secrets of the Lost Cabal
+	,[309] = {
+	}
+	-- SC2 - Revenge of the Lost Cabal
+	,[310] = {
+	}
+	-- SoX1 - Nobles Crypt
+	,[311] = {
+	}
+	-- SoX2 - Flooded Crypt
+	,[312] = {
+	}
+	-- SoX3 - Crypt of the Ancients
+	,[313] = {
+	}
 }
 
 
